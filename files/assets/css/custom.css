@@ -1,0 +1,63 @@
+div.section>p {
+    text-align: justify;
+}
+
+/* Make the footer stick to the bottom */
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  position: relative;
+  padding-bottom: 2em;
+  padding-top: 60px;
+}
+footer {
+   width: 100%;
+   border-top: 1px solid #a55;
+   position: absolute;
+   bottom: 3px;
+   left: 0;
+   text-align: center;
+   height: 1.5em;
+   clear: both;
+   background: #eee;
+   color: #777;
+}
+footer a, footer a:visited, footer a:hover {
+   color: #005;
+}
+
+
+/* pin the top navbar? */
+.navbar-fixed-top {
+    position: absolute;
+    top: 0;
+}
+
+
+/* reference markup */
+.ref {
+    padding-left: .5em;
+    margin-top: .7em;
+    border-left: 1px solid black;
+}
+.ref .title {
+    font-weight:bold;
+}
+.ref .journal {
+    font-style:italic;
+}
+
+
+/* Tweak tables */
+tr th {
+    background-color: #000;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+
