@@ -11,4 +11,3 @@ It currently holds 16 research groups contributing to 4 broad research areas: Co
 
 The Knowledge Discovery and Bioinformatics (`KDBIO <http://kdbio.inesc-id.pt>`_) is a research group which integrates competences from researchers in computer science, biology, statistics and control, developing activities in the areas of knowledge discovery, computational biology and bioinformatics.
 
-
