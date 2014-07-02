@@ -74,14 +74,43 @@ class CommandMakeLists(Command):
         # Update depends
         print"TODO: record depends"
         for tag in tagged:
+            geogroups = []
             pages = tagged[tag]
             for index_page in pages[1]:
                 depends = index_page.fragment_deps(index_page.default_lang)
                 for page in pages[0]:
                     depends.append(page.source_path)
+                    grp = get_geo_info(page)
+                    if grp:
+                        grp["id"] = len(geogroups)+1
+                        geogroups.append(grp)
+            
+            # save map data if any
+            if len(geogroups) > 0:
+                geofeatures = {"type": "FeatureCollection", "features": geogroups}
+                out = open("output/map/geojson_%s.js" % tag, "w")
+                out.write("var groups = ")
+                json.dump(geofeatures, out)
+                out.write(";\n")
+                out.close()
+        
+        print depends
+        
         
         # trigger a rebuild
-        self.site.doit.run( ["build"] )
+        #self.site.doit.run( ["build"] )
+
+
+def get_geo_info(page):
+    meta = page.meta[page.default_lang]
+    if "geolocation" not in meta:
+        return
+    
+    properties = {"title": meta["title"], "content": meta["description"], "link":page.permalink()}
+    coordinates = [ float(v.strip()) for v in meta["geolocation"].split(",") ]
+    geometry = {"type": "Point", "coordinates": coordinates }
+    
+    return {"type":"Feature", "properties":properties, "geometry":geometry}
 
 
 def get_page_list(mark, options=[]):
