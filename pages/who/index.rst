@@ -2,7 +2,7 @@
 .. tags: listof:groups
 .. description: 
 
-Groups involved in CoLoMoTo (`on a map </map/>`_)
+Groups involved in CoLoMoTo (`on a map <map.html>`_)
 
 .. listof:: groups
 
