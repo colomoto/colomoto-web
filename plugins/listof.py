@@ -70,6 +70,7 @@ class CommandMakeLists(Command):
     def _execute(self, options, args):
         self.site.scan_posts()
         tagged = self.site.get_pages_per_tags()
+        base_map_dir = "output/map"
         
         # Update depends
         print"TODO: record depends"
@@ -87,8 +88,10 @@ class CommandMakeLists(Command):
             
             # save map data if any
             if len(geogroups) > 0:
+                if not os.path.exists(base_map_dir):
+                    os.makedirs(base_map_dir)
                 geofeatures = {"type": "FeatureCollection", "features": geogroups}
-                out = open("output/map/geojson_%s.js" % tag, "w")
+                out = open(base_map_dir+"/geojson_%s.js" % tag, "w")
                 out.write("var groups = ")
                 json.dump(geofeatures, out)
                 out.write(";\n")

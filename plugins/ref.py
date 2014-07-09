@@ -48,9 +48,6 @@ def cur_refs(doc):
         CUR_REFS_IDX = []
 
 def get_ref(key, depends):
-    path = BASE+"config.ini"
-    depends.add(path)
-
     path = BASE+key+".json"
     depends.add(path)
 
@@ -175,8 +172,10 @@ def format_ref(ref, key=None):
             pdf = ref["pdf"]
             links += '<a href="/references/%s"><img src="/assets/icons/pdf.png"/></a> ' % (pdf)
         info["links"] = links
+        
+        return CODE.format(**info)
     
-    return CODE.format(**info)
+    return ""
 
 class Reference(Directive):
     """ Restructured text extension for inserting References
