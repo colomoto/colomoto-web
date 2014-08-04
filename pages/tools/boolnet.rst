@@ -5,6 +5,7 @@
 .. related-groups: ulm
 
 
+BoolNet is a `R package <http://cran.r-project.org/web/packages/BoolNet>`_ providing methods for the generation,
+reconstruction, simulation and analysis of synchronous, asynchronous, and probabilistic Boolean networks.
 
-See `r-cran page <http://cran.r-project.org/web/packages/BoolNet>`_
 

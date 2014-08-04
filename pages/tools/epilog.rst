@@ -4,9 +4,15 @@
 .. type: text
 .. related-groups: igc inesc
 
-EpiLog is a tool which makes use of `LogicalModel <https://github.com/colomoto/logicalmodel>`_ to implement a cellular automata, defining a convenient framework for the qualitative modelling of epithelium pattern formation.
 
-EpiLog is implemented in Java and uses the `MDDlib <https://github.com/colomoto/mddlib>`_ and `LogicalModel <https://github.com/colomoto/logicalmodel>`_ tools at its core for the manipulation of Binary Decision Diagrams and multi-valued logical models, respectively.
+EpiLog is a Java software for the qualitative simulation of epithelial patterning.
 
-It is freely available at `http://ginsim.org/epilog <http://ginsim.org/epilog>`_.
+It defines an epithelium as a 2D grid of hexagonal cells, each containing a LRG regulating the internal proper components.
+It is also capable of integrating as input components of each cell, stable environmental influences as well as varying signals from neighbouring cells.
+The software provides a graphical user interface representing the hexagonal grid of cells to facilitate the definition of initial conditions,
+definition of perturbations, and visualization of the simulation. The latter is performed synchronously with respect to all components of all cells.
+
+It relies on the `LogicalModel <https://github.com/colomoto/logicalmodel>`_ library to import multi-valued logical models from SBML qual and compute the successor states.
+
+It is freely available at http://ginsim.org/epilog
 
