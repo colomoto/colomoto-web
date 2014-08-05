@@ -2,11 +2,16 @@
 
 from __future__ import unicode_literals
 import time
+import os
 from nikola import filters
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
 
+if "NIKOLA_DEV" in os.environ:
+    is_devel = True
+else:
+    is_devel = False
 
 # ! Some settings can be different in different languages.
 # ! A comment stating (translatable) is used to denote those.
@@ -28,6 +33,10 @@ SITE_URL = "http://draft.colomoto.org/"
 # BASE_URL = "http://getnikola.com/"
 BLOG_EMAIL = "contact@colomoto.org"
 BLOG_DESCRIPTION = "CoLoMoTo: Consortium for Logical Models and Tools" # (translatable)
+
+if is_devel:
+    BLOG_TITLE += " [DEV]"
+    SITE_URL += "nightly/"
 
 # Nikola is multilingual!
 #
