@@ -8,7 +8,7 @@ It relies on a specific language to define the model and transition rates, and a
 The evolution of probabilities over time is estimated, and global and semi-global characterizations of the whole system are computed. 
 
 The LogicalModel library provides an export filter to the MaBoSS format, and conversion of MaBoSS models to SBML qual are planned.
-See <https://maboss.curie.fr/>_
+See https://maboss.curie.fr/.
 
 .. ref:: Stoll2012
 

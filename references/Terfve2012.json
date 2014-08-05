@@ -1,0 +1,9 @@
+{
+"title": "CellNOptR: a flexible toolkit to train protein signaling networks to data using multiple logic formalisms",
+"authors": [["Terfve", "Camille"], ["Cokelaer", "Thomas"], ["Henriques", "David"], ["MacNamara", "Aidan"], ["Goncalves", "Emanuel"], ["Morris", "Melody K"], ["van Iersel", "Martijn"], ["Lauffenburger", "Douglas A"], ["Saez-Rodriguez", "Julio"]],
+"year": "2012",
+"journal": "BMC Syst Biol",
+"volume": "6",
+"pages": "133",
+"links": {"pmid": "23079107", "doi": "10.1186/1752-0509-6-133"}
+}

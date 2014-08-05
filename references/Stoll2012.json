@@ -1,0 +1,9 @@
+{
+"title": "Continuous time Boolean modeling for biological signaling: application of Gillespie algorithm",
+"authors": [["Stoll", "Gautier"], ["Viara", "Eric"], ["Barillot", "Emmanuel"], ["Calzone", "Laurence"]],
+"year": "2012",
+"journal": "BMC Syst Biol",
+"volume": "6",
+"pages": "116",
+"links": {"pmid": "22932419", "doi": "10.1186/1752-0509-6-116"}
+}

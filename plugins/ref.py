@@ -102,7 +102,10 @@ def biblio(document):
 
 
 def extract_name(author):
-    family, given = author.split(", ")
+    if isinstance(author, basestring):
+        family, given = author.split(", ")
+    else:
+        family, given = author
     if family.startswith("{") and family.startswith("{"):
         family = family[1:-1]
     given = [g[0]+"." for g in given.split(" ")]
@@ -128,9 +131,9 @@ def format_ref(ref, key=None):
             info["key"] = ""
         
         # format authors
-        if "author" in ref:
+        if "authors" in ref:
             authors = []
-            for a in ref["author"]:
+            for a in ref["authors"]:
                 authors.append(extract_name(a))
             info["authors"] = ", ".join(authors)
         
@@ -162,14 +165,15 @@ def format_ref(ref, key=None):
         info["extra"] = extra
         
         links = ""
-        if "doi" in ref:
-            doi = ref["doi"]
+        reflinks = ref["links"]
+        if "doi" in reflinks:
+            doi = reflinks["doi"]
             links += '[<a href="http://dx.doi.org/%s">doi:%s</a>] ' % (doi, doi)
-        if "pmid" in ref:
-            pmid = ref["pmid"]
+        if "pmid" in reflinks:
+            pmid = reflinks["pmid"]
             links += '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/%s">pubmed:%s</a>] ' % (pmid, pmid)
-        if "pdf" in ref:
-            pdf = ref["pdf"]
+        if "pdf" in reflinks:
+            pdf = reflinks["pdf"]
             links += '<a href="/references/%s"><img src="/assets/icons/pdf.png"/></a> ' % (pdf)
         info["links"] = links
         

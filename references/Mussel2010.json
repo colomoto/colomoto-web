@@ -1,0 +1,10 @@
+{
+"title": "BoolNet--an R package for generation, reconstruction and analysis of Boolean networks",
+"authors": [["M\u00fcssel", "Christoph"], ["Hopfensitz", "Martin"], ["Kestler", "Hans A"]],
+"year": "2010",
+"journal": "Bioinformatics",
+"volume": "26",
+"issue": "10",
+"pages": "1378-80",
+"links": {"pmid": "20378558", "doi": "10.1093/Bioinformatics/Btq124"}
+}

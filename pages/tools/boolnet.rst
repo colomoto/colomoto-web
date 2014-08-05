@@ -9,3 +9,5 @@ BoolNet is a `R package <http://cran.r-project.org/web/packages/BoolNet>`_ provi
 reconstruction, simulation and analysis of synchronous, asynchronous, and probabilistic Boolean networks.
 
 
+.. ref:: Mussel2010
+
