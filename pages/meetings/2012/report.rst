@@ -21,8 +21,10 @@ Objective of the CoLoMoTo project
 * Focus on project as a whole instead of single tool will increase visibility of the project.
 * Exchange models -> SBML-qual
 * Andreas asks about possible alternatives
-  * Petrinet format -> not suitable for qualitative models per se.
+
+  * Petri net format -> not suitable for qualitative models per se.
 * Common platform -> Cytoscape-based - prototype. 
+
   * Not essential, but nice to have
   * Slowly shift development effort towards this toolbox...
   * Reduced maintenance effort.
@@ -134,40 +136,10 @@ Publications
 Social media
 ------------
 
-Establish presence on social media websites?
-LinkedIn (just created: http://www.linkedin.com/groups/CoLoMoTo-4375380?home=&gid=4375380 )
-Twitter?
-Facebook and/or Google + -- do we care about these?
+Should we establish some presence on social media websites?
 
+* A LinkedIn group was created: http://www.linkedin.com/groups/CoLoMoTo-4375380?home=&gid=4375380
+* Twitter?
+* Facebook / Google+:  do we care about these?
 
-
-Contacting extra groups
------------------------
-
-
-List of other logic-based groups to think about inviting for the upcoming meeting (We generated one during our first Colomoto meeting in Lisbon -- is it still available somewhere?)
-Here is the list as it appears in the minutes of the 1st CoLoMoTo meeting, certainly needs to be updated...
-
-* Ilia Shmulevich (ISB),
-* Stuart Kauffman and Huang Sui (Calgary),
-* Reka Albert (PSU),
-* Ted Perkins (Toronto),
-* Bartek Wilczynski (EMBL Heidelberg),
-* Leon Glass (McGill),
-* Reinhard Laubenbacher (VirginiaTech),
-* Bornhold (Bremen),
-* David Irons (Sheffield),
-* Fabian Theis (Munchen),
-* Akutsu (Kyoto),
-* Marcelle Kaufman (Brussels),
-* Elena & Luis (UNAM),
-* Julio Aracena (Santiago de Chili),
-* Laurent Tournier (INRA),
-* Magdalena Chaves (Sophia-Antipolis),
-* Gwenael Kervizic (Dassault),
-* Gregory Batt,
-* Hidde de Jong,
-* François Fages (INRIA),
-* Sylvain Séné (IBISC),
-* Jacques Demongeot,
 
