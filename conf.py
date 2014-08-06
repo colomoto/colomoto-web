@@ -103,12 +103,12 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 # (the same way you would do with a (translatable) setting.)
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/who', 'Members'),
-        ('/tools', 'Tools'),
-        ('/methods', 'Methods'),
-        ('/models', 'Models'),
-        ('/meetings', 'Meetings'),
         ('/news', 'News'),
+        ('/meetings', 'Meetings'),
+        ('/members', 'Members'),
+        ('/formal', 'Formal'),
+        ('/software', 'Software'),
+        ('/models', 'Models'),
     ),
 }
 
