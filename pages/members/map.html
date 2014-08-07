@@ -4,6 +4,7 @@
 <div id="map" style="height: 800px"></div>
 
 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+<script src="/assets/js/leaflet.markercluster.js" type="text/javascript"></script>
 <script src="/map/geojson_groups.js" type="text/javascript"></script>
 
 <script>
@@ -12,6 +13,7 @@
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
+var markers = L.markerClusterGroup();
 
 /*
 	L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
@@ -51,7 +53,8 @@ L.geoJson(groups, {
 			fillOpacity: 0.8
 		});
 	}
-}).addTo(map);
+}).addTo(markers);
 
+map.addLayer(markers);
 </script>
 
