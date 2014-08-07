@@ -6,6 +6,11 @@
 .. description: 
 .. type: text
 
+
+.. image:: /images/colomoto.png
+   :align: right
+   :alt: colomoto logo
+
 About CoLoMoTo
 ==============
 
