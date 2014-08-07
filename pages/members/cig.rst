@@ -1,7 +1,7 @@
 .. title: CIG, University of Lausanne (Switzerland)
 .. tags: groups
 .. description: The "Center for Integrative Genomics" in the University of Lausanne hosts the Vital-IT competence center in bioinformatics
-.. geolocation: 6.573977, 46.519565
+.. geolocation: 46.519565, 6.573977
 .. members: Aurélien Naldi, Ioannis Xenarios, Julien Dorier, Anastasia Chasapi
 
 

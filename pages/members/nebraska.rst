@@ -1,6 +1,6 @@
 .. title: Beadle center, University of Nebraska (USA)
 .. tags: groups
-.. geolocation: -96.693473,40.819792
+.. geolocation: 40.819792, -96.693473
 .. description: 
 .. members: Tomas Helikar
 

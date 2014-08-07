@@ -110,7 +110,7 @@ def get_geo_info(page):
         return
     
     properties = {"title": meta["title"], "content": meta["description"], "link":page.permalink()}
-    coordinates = [ float(v.strip()) for v in meta["geolocation"].split(",") ]
+    coordinates = [ float(v.strip()) for v in meta["geolocation"].split(",") ].reverse()
     geometry = {"type": "Point", "coordinates": coordinates }
     
     return {"type":"Feature", "properties":properties, "geometry":geometry}
