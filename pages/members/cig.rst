@@ -1,8 +1,8 @@
-.. title: CIG, University of Lausanne (Switzerland)
+.. title: CIG - SIB, University of Lausanne (CH)
 .. tags: groups
 .. description: The "Center for Integrative Genomics" in the University of Lausanne hosts the Vital-IT competence center in bioinformatics
 .. geolocation: 46.519565, 6.573977
-.. members: Aurélien Naldi, Ioannis Xenarios, Julien Dorier, Anastasia Chasapi
+.. members: Aurélien Naldi, Ioannis Xenarios, Julien Dorier, Anastasia Chasapi, Anne Niknejad, Isaac Crespo, Celine Hernandez, Martial Sankar
 
 
 The `Center for Integrative Genomics (CIG) <http://www.unil.ch/cig>`_ is a department of the Faculty of Biology and Medicine of the University of Lausanne (UNIL).

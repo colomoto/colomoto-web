@@ -1,4 +1,4 @@
-.. title: INESC ID (Lisbon, Portugal)
+.. title: INESC ID (Lisbon, PT)
 .. tags: groups
 .. geolocation: 38.736410, -9.140801
 .. link: http://www.inesc-id.pt

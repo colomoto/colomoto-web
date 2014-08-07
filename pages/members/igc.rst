@@ -1,7 +1,7 @@
-.. title: IGC (Lisbon, Portugal)
+.. title: IGC (Oeiras, PT)
 .. tags: groups
 .. geolocation: 38.691286, -9.315219
 .. description: 
-.. members: Claudine Chaouiya, Pedro L. Varela
+.. members: Claudine Chaouiya, Pedro L. Varela, Jorge Carneiro, Manuel Pita
 
 
