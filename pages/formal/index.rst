@@ -6,5 +6,7 @@
 .. description: 
 .. type: text
 
-TODO: Theoretical results, methods, glossary
+TODO: add definition of logical models, a list of related methods and glossary
+
+Logical modelling tools can exchange models through the `SBML qual exchange format  <sbml-qual.html>`_.
 
