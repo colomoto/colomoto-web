@@ -608,6 +608,8 @@ SOCIAL_BUTTONS_CODE = ""
 # Setting it to False implies SHOW_SOURCELINK = False
 # COPY_SOURCES = True
 COPY_SOURCES = False
+if is_devel:
+    COPY_SOURCES = True
 
 # Modify the number of Post per Index Page
 # Defaults to 10
