@@ -1,4 +1,5 @@
 .. title: EpiLog
+.. description: Simulation of epithelial patterning using multi-cellular multivalued logical models
 .. tags: tools, related-groups
 .. link: http://ginsim.org/epilog
 .. type: text

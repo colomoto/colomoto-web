@@ -1,5 +1,6 @@
 .. title: The Cell Collective
 .. tags: tools, related-groups
+.. description: Web-based plateform for the construction and simulation of Boolean models
 .. link: 
 .. type: text
 .. related-groups: nebraska

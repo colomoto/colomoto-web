@@ -1,5 +1,6 @@
 .. title: BoolNet
 .. tags: tools, related-groups
+.. description: R package for the generation and simulation of probabilistic Boolean networks
 .. link: 
 .. type: text
 .. related-groups: ulm

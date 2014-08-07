@@ -1,5 +1,6 @@
 .. title: GINsim
 .. tags: tools, related-groups
+.. description: Java software for the construction and analysis of multivalued models
 .. link: 
 .. type: text
 .. related-groups: cig igc inesc ibens
