@@ -1,4 +1,5 @@
 .. hidetitle: True
+.. description: global map of colomoto members
 
 
 <div id="map" style="height: 800px"></div>
@@ -26,10 +27,10 @@ var markers = L.markerClusterGroup();
 */
 
 function onEachFeature(feature, layer) {
-	var popupContent = "<h2><a href='"+feature.properties.link+"'>"+feature.properties.title+"</a></h2>";
+	var popupContent = "<b><a href='"+feature.properties.link+"'>"+feature.properties.title+"</a></b>";
 
 	if (feature.properties && feature.properties.content) {
-		popupContent += feature.properties.content;
+		popupContent += "<p>"+feature.properties.content;
 	}
 
 	layer.bindPopup(popupContent);

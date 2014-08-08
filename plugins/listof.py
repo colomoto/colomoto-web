@@ -303,7 +303,7 @@ class Info(Directive):
         if page:
             return self.get_info(page)
         
-        return [nodes.raw('', '', format='html')]
+        return [nodes.raw('', '%s' % dir(self.state.document.settings), format='html')]
 
 
     def get_info(self, page):
@@ -313,6 +313,26 @@ class Info(Directive):
             text += "<li>"+member.strip()+"</li>"
         text += "</ul>"
         
-        return [nodes.raw('', text, format='html')]    
+        coords = page.meta["en"]["geolocation"]
+        if coords: text += show_map(coords)
+        
+        return [nodes.raw('', text, format='html')]
 
+MAP_TILES= """L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+"""
+
+SMALL_MAP="""<div id="map" style="height: 300px; width:300px;"></div>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+<script>
+var map = L.map('map').setView([{1}], 4);
+{0}
+L.marker([{1}]).addTo(map);
+</script>
+"""
+
+def show_map(coords):
+    text = SMALL_MAP.format(MAP_TILES, coords)
+    return text
 
