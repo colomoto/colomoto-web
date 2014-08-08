@@ -62,7 +62,7 @@ Markup
 ------
 
 Most pages are defined in files with a "rst" extension.
-These pages use the restructuredtext markup (http://fr.wikipedia.org/wiki/ReStructuredText) with some extensions.
+These pages use the restructuredtext markup (http://en.wikipedia.org/wiki/ReStructuredText) with some extensions.
 Here are a few instructions for editing, refer to the main RST and nikola documentations for more details.
 
 
