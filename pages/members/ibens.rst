@@ -5,3 +5,5 @@
 .. members: Denis Thieffry
 
 
+.. info::
+

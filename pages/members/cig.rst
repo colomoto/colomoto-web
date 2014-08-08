@@ -2,7 +2,7 @@
 .. tags: groups
 .. description: The "Center for Integrative Genomics" in the University of Lausanne hosts the Vital-IT competence center in bioinformatics
 .. geolocation: 46.519565, 6.573977
-.. members: Aurélien Naldi, Ioannis Xenarios, Julien Dorier, Anastasia Chasapi, Anne Niknejad, Isaac Crespo, Celine Hernandez, Martial Sankar
+.. members: Ioannis Xenarios, Aurélien Naldi, Julien Dorier, Anastasia Chasapi, Isaac Crespo, Celine Hernandez, Martial Sankar, Anne Niknejad 
 
 
 The `Center for Integrative Genomics (CIG) <http://www.unil.ch/cig>`_ is a department of the Faculty of Biology and Medicine of the University of Lausanne (UNIL).
@@ -13,4 +13,6 @@ where interactions among groups are numerous both in formal and informal setting
 
 The `Vital-IT <http://www.vital-it.ch/>`_ group is a bioinformatics competence center associated to the `Swiss Institute of Bioinformatics <http://www.isb-sib.ch/>`_.
 This group provides both computing infrastructure (high-performance computing and storage) and wide expertise in bioinformatics for life-science and medical research.
+
+.. info::
 

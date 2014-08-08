@@ -6,3 +6,5 @@
 
 http://www.ebi.ac.uk/research/saez-rodriguez
 
+.. info::
+

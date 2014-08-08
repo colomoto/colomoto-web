@@ -47,8 +47,17 @@ def get_pages_per_tags(self):
     
     return pages_per_tags
 
-# bind this method to the main Nikola object
+
+def get_pages_for_source(self, src):
+    """Add a list of tagged pages to the main site object."""
+    
+    for page in self.pages:
+        if page.source_path == src:
+            return page
+
+# bind these methods to the main Nikola object
 Nikola.get_pages_per_tags = get_pages_per_tags
+Nikola.get_pages_for_source = get_pages_for_source
 
 
 class CommandMakeLists(Command):
@@ -64,6 +73,7 @@ class CommandMakeLists(Command):
         ListOf.site = site
         directives.register_directive('listof', ListOf)
         directives.register_directive('members', Members)
+        directives.register_directive('info', Info)
         
         return super(Command, self).set_site(site)
     
@@ -276,5 +286,33 @@ class Members(Directive):
                                "'key=value' format for options is deprecated, "
                                "use ':key: value' instead")
 
+
+
+class Info(Directive):
+    """ Restructured text extension for inserting page info
+    
+    It will search for a matching page and retrieve info from the metadata.
+    
+    Usage:
+        .. info::
+    """
+    
+    def run(self):
+        """ Required by the Directive interface. Create docutils nodes """
+        page = ListOf.site.get_pages_for_source(self.state.document.settings._source)
+        if page:
+            return self.get_info(page)
+        
+        return [nodes.raw('', '', format='html')]
+
+
+    def get_info(self, page):
+        text = "Members:"
+        text += "<ul>"
+        for member in page.meta[page.default_lang]["members"].split(","):
+            text += "<li>"+member.strip()+"</li>"
+        text += "</ul>"
+        
+        return [nodes.raw('', text, format='html')]    
 
 
