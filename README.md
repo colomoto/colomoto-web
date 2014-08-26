@@ -1,13 +1,15 @@
 What is this?
 =============
 
-The source files behind the colomoto web pages on http://draft.colomoto.org
+This repository hosts the source files behind the colomoto web pages on http://draft.colomoto.org.
+It uses the nikola static generator: each page is a simple text file using a wiki-like markup.
+
+This document provides some instructions about installing and using nikola,
+and how to edit pages.
 
 
 Requirements and initial setup
 =============================
-
-This site uses the nikola static generator.
 
 
 Virtualenv
@@ -82,11 +84,11 @@ rst reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 Custom directives and annotations
 ---------------------------------
 
-We can define custom commands (called directives) using plugins.
+We can define custom markup in the rst files (called directives) using plugins.
 
-* Each group or tool page must be tagged as such in the metadata (.. tag: groups).
 * We curently have a ".. listof:: groups" directive to generate the lists of groups, which will find all pages
   associated to the desired tag. The same method is used for tools and meetings pages.
+* Each group or tool page must be tagged as such in the metadata (.. tag: groups).
 * group pages should also define two extra metadata: geolocation and members.
-* We plan to add some directives to make it easier to properly format references.
+* Another Custom directive handles the formatting of references.
 
