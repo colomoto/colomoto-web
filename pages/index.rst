@@ -14,7 +14,7 @@
 About CoLoMoTo
 ==============
 
-CoLoMoTo (Common Logical Modelling Toolbox) is a consortium of `research groups interested in logical modelling <members>`_.
+CoLoMoTo (Consortium for Logical Models and Tools) is a consortium of `research groups interested in logical modelling <members>`_.
 The aim of the project is provide a common toolbox, taking advantage of existing sofwares, gathering key players in the development of tools for discrete modelling of biological networks.
 The goal is to define a network of research groups working on qualitative modelling of biological pathways.
 
