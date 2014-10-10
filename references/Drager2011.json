@@ -1,0 +1,10 @@
+{
+"title": "JSBML: a flexible Java library for working with SBML",
+"authors": [["Dr\u00e4ger", "Andreas"], ["Rodriguez", "Nicolas"], ["Dumousseau", "Marine"], ["D\u00f6rr", "Alexander"], ["Wrzodek", "Clemens"], ["Le Nov\u00e8re", "Nicolas"], ["Zell", "Andreas"], ["Hucka", "Michael"]],
+"year": "2011",
+"journal": "Bioinformatics",
+"volume": "27",
+"issue": "15",
+"pages": "2167-8",
+"links": {"pmid": "21697129", "doi": "10.1093/Bioinformatics/Btr361"}
+}
