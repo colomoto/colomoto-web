@@ -307,7 +307,7 @@ class Info(Directive):
 
 
     def get_info(self, page):
-        text = "Members:"
+        text = "Members involved in CoLoMoTo activities:"
         text += "<ul>"
         for member in page.meta[page.default_lang]["members"].split(","):
             text += "<li>"+member.strip()+"</li>"
