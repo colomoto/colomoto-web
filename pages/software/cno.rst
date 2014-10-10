@@ -1,16 +1,11 @@
 .. title: CellNOpt (CellNetOptimizer)
 .. tags: tools, related-groups
-.. description: Training logical models to biological data
+.. description: CellNOpt is a free open-source  toolbox for creating logic-based models of signal transduction networks, and training them against high-throughput biochemical data.
 .. link: 
 .. type: text
 .. related-groups: ebi
 
-See `cellnopt.org <http://www.cellnopt.org/>`_
-
-CellNOpt is an open-source software used for creating logic-based models of signal transduction networks and training then with data.
-While the core of CellNOpt consists of a set of R packages, it can be used through a Python wrapper, as well as a Cytoscape plug-in (CytoCopteR)
-which provides support for the SBML qual format and a bridge for further analysis by other cytoscape plugins.
-
+CellNOpt (from CellNetOptimizer; a.k.a. CNO) is a software used for creating logic-based models of signal transduction networks using different logic formalisms (Boolean, Fuzzy, or differential equations). CellNOpt uses information on signaling pathways encoded as a Prior Knowledge Network, and trains it against high-throughput biochemical data to create cell-specific models. CellNOpt is freely available under GPL license in R and Matlab languages. It can be also accessed through a python wrapper, and a Cytoscape plugin called CytoCopter.
 
 .. ref:: Terfve2012
 
