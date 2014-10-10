@@ -8,3 +8,5 @@ The goal of our group is to acquire a functional understanding of the deregulati
 Logic modelling based on phosphoproteomic data is a major tool in our group towards this end.
 
 
+.. info::
+
