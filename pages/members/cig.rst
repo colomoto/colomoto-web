@@ -1,7 +1,8 @@
-.. title: CIG - SIB, University of Lausanne (CH)
+.. title: Vital-IT (Lausanne, CH)
 .. tags: groups
 .. description: The "Center for Integrative Genomics" in the University of Lausanne hosts the Vital-IT competence center in bioinformatics
 .. geolocation: 46.519565, 6.573977
+.. institute: SIB, University of Lausanne
 .. members: Ioannis Xenarios, Aurélien Naldi, Julien Dorier, Anastasia Chasapi, Isaac Crespo, Celine Hernandez, Martial Sankar, Anne Niknejad 
 
 

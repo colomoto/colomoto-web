@@ -1,4 +1,4 @@
-.. title: IBIS
+.. title: IBIS (Grenoble, FR)
 .. tags: groups
 .. geolocation: 45.217889, 5.807333
 .. description: Analysis of bacterial regulatory networks using a systems biology approach

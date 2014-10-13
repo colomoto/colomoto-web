@@ -1,4 +1,4 @@
-.. title: Systems Biology Research Group (UCSD, USA)
+.. title: Systems Biology Research Group (La Jolla, USA)
 .. tags: groups
 .. geolocation: 32.8821725,-117.2352218
 .. description: 

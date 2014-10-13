@@ -1,4 +1,4 @@
-.. title: Saez-Rodriguez's Group - Systems Biomedicine
+.. title: Saez-Rodriguez's Group - Systems Biomedicine (Hinxton, UK)
 .. tags: groups
 .. geolocation: 52.079611, 0.186722
 .. description: We develop methods based on logic modelling to understand the deregulation of signalling networks in disease and to identify novel therapeutics.
