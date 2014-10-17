@@ -27,7 +27,7 @@ BLOG_AUTHOR = "CoLoMoTo Consortium" # (translatable)
 BLOG_TITLE = "CoLoMoTo" # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://draft.colomoto.org/"
+SITE_URL = "http://www.colomoto.org/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
@@ -36,7 +36,7 @@ BLOG_DESCRIPTION = "CoLoMoTo: Consortium for Logical Models and Tools" # (transl
 
 if is_devel:
     BLOG_TITLE += " [DEV]"
-    SITE_URL += "nightly/"
+    SITE_URL = "http://draft.colomoto.org/"
 
 # Nikola is multilingual!
 #
