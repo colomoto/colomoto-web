@@ -8,7 +8,7 @@
 
 
 The following software tools are developed by members of the CoLoMoTo consortium.
-This list is ot exhaustive: other logical modelling tools exist.
+This list is not exhaustive, please contact us to include new tools.
 
 .. listof:: tools
 

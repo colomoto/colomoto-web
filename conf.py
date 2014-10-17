@@ -106,7 +106,7 @@ NAVIGATION_LINKS = {
         ('/news', 'News'),
         ('/meetings', 'Meetings'),
         ('/members', 'Members'),
-        ('/formal', 'Formal'),
+#        ('/formal', 'Formal'),
         ('/software', 'Software'),
         ('/models', 'Models'),
     ),

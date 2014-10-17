@@ -2,7 +2,7 @@
 .. tags: listof:groups
 .. description: 
 
-Youn can also view these groups `on a map <map.html>`_
+You can also view these groups `on a map <map.html>`_
 or the full list of `individual members <members.html>`_.
 
 
