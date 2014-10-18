@@ -168,17 +168,15 @@ class ListOf(Directive):
         depends = self.state.document.settings.record_dependencies
         
         text = ""
-        text += "<ul>"
         for page in pages:
             link = page.permalink()
             title = page.title()
             description = page.description()
             if description:
-                description = "<br/>"+description
+                description = "<br>"+description
             meta = page.meta[page.default_lang]
-            text += "<li><a href='"+link+"'>"+title+"</a>"+description+"</li>"
+            text += "<a class='tile' href='"+link+"'><span class='title'>"+title+"</span>"+description+"</a>"
             depends.add(page.source_path)
-        text += "</ul>"
         
         return [nodes.raw('', text, format='html')]
 

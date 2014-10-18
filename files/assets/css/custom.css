@@ -25,6 +25,12 @@ footer {
    background: #eee;
    color: #777;
 }
+
+a:hover {
+    color: #339;
+    text-decoration: none;
+}
+
 footer a, footer a:visited, footer a:hover {
    color: #005;
 }
@@ -73,6 +79,22 @@ tr:nth-child(even) {
     background-color: #eee;
 }
 
+/* tiles for the list of pages */
+.tile {
+    display: block;
+    margin:.71em 0em;
+    padding: .3em;
+    background: #eee;
+}
+
+.tile:hover {
+    background: #ddf;
+}
+
+.tile .title {
+    font-size: 150%;
+    color: #228;
+}
 
 /* Leaflet styles */
 
