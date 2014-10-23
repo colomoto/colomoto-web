@@ -107,8 +107,8 @@ article header {
     background: #fefefe;
     border: solid;
     border-width: 1px;
-    border-color: #aaa
     color: black;
+    border-color: #aaa
 }
 
 .tile:hover {
