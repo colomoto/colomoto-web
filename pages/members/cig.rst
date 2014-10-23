@@ -1,6 +1,6 @@
 .. title: Vital-IT (Lausanne, CH)
 .. tags: groups
-.. description: The "Center for Integrative Genomics" in the University of Lausanne hosts the Vital-IT competence center in bioinformatics
+.. description: Vital-IT provides computer infrastructure and wide expertise in bioinformatics for life sciences
 .. geolocation: 46.519565, 6.573977
 .. institute: SIB, University of Lausanne
 .. members: Ioannis Xenarios, Aurélien Naldi, Julien Dorier, Anastasia Chasapi, Isaac Crespo, Celine Hernandez, Martial Sankar, Anne Niknejad 

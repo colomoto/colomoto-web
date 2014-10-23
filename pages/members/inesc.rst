@@ -1,7 +1,6 @@
 .. title: INESC ID (Lisbon, PT)
 .. tags: groups
 .. geolocation: 38.736410, -9.140801
-.. link: http://www.inesc-id.pt
 .. members: Pedro T. Monteiro
 .. description: The INESC-ID is a research institution associated with Instituto Superior Tecnico, hosting the Knowledge Discovery and Bioinformatics (KDBIO) group.
 

@@ -1,10 +1,10 @@
-.. title: University of Ulm (DE)
+.. title: Medical Systems Biology group (Ulm, DE)
 .. tags: groups
 .. geolocation: 48.422654, 9.957366
 .. description: The Core Group Medical Systems Biology is a central facility of Ulm University for Bioinformatics and Systems Biology
-.. members: Hans A. Kestler, Christoph Müssel,  - Markus Maucher, Alexander Groß,  Ludwig Lausser, Andre Burkovski,  Melanie Grieb
+.. members: Hans A. Kestler, Christoph Müssel,  Markus Maucher, Alexander Groß,  Ludwig Lausser, Andre Burkovski,  Melanie Grieb
 
-The `Core Group Medical Systems Biology <http://sysbio.uni-ulm.de/>`_ at Ulm University
+The Core Group `Medical Systems Biology <http://sysbio.uni-ulm.de/>`_ at Ulm University
 pursues the development of new methods in Bioinformatics and Systems Biology.
 The research focuses on the development of mathematical models of regulatory processes
 as well as on the analysis of high-dimensional biomolecular data.

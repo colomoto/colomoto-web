@@ -1,7 +1,7 @@
 .. title: Analysis and Redesign of Biological Networks (Magdeburg, DE)
 .. tags: groups
 .. geolocation: 52.1386771, 11.584116 
-.. description: The group developes and employs theoretical methods for the analysis, inference, and targeted modification of bio-molecular networks
+.. description: The group develops and employs theoretical methods for the analysis, inference, and targeted modification of bio-molecular networks
 .. members: Steffen Klamt
 
 
