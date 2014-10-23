@@ -3,7 +3,7 @@
 .. description: Vital-IT provides computer infrastructure and wide expertise in bioinformatics for life sciences
 .. geolocation: 46.519565, 6.573977
 .. institute: SIB, University of Lausanne
-.. members: Ioannis Xenarios, Aurélien Naldi, Julien Dorier, Anastasia Chasapi, Isaac Crespo, Celine Hernandez, Martial Sankar, Anne Niknejad 
+.. members: Ioannis Xenarios, Aurélien Naldi, Julien Dorier, Anastasia Chasapi, Isaac Crespo, Anne Niknejad 
 
 
 The `Center for Integrative Genomics (CIG) <http://www.unil.ch/cig>`_ is a department of the Faculty of Biology and Medicine of the University of Lausanne (UNIL).
