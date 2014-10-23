@@ -79,16 +79,40 @@ tr:nth-child(even) {
     background-color: #eee;
 }
 
+/* Tweak the 'news' page */
+.postindex article {
+    /* background: #eee; */
+    margin: 1em 0em;
+    padding: .5em;
+    padding-top: 0;
+    border: solid;
+    border-width: 1px;
+    border-color: #aaa;
+    background: #fefefe;
+}
+
+.postindex article h1 {
+    font-size: 200%;
+}
+
+article header {
+    margin-bottom: 1.5em;
+}
+
 /* tiles for the list of pages */
 .tile {
     display: block;
-    margin:.71em 0em;
+    margin: .7em 0em;
     padding: .3em;
-    background: #eee;
+    background: #fefefe;
+    border: solid;
+    border-width: 1px;
+    border-color: #aaa
+    color: black;
 }
 
 .tile:hover {
-    background: #ddf;
+    background: #dddddf;
 }
 
 .tile .title {
