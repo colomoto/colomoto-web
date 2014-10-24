@@ -8,8 +8,12 @@
 
 Logical models can be found on various repositories:
 
-* `GINsim's model repository <http://ginsim.org/models_repository>`_
-* `The cell collective <http://www.thecellcollective.org>`_
-* `BioModels <http://www.ebi.ac.uk/biomodels>`_ (look for models using SBML qual)
+* `BioModels <http://www.ebi.ac.uk/biomodels>`_ is a database of models in the
+  SBML formats. Some logical models are available using the SBML qual extension.
+* `The Cell Collective <http://www.thecellcollective.org>`_ provides models
+  in several formats, including SBML qual.
+* The `GINsim's model repository <http://ginsim.org/models_repository>`_
+  provide models in the GINML format, which can be converted to SBML qual
+  (and other formats) using GINsim.
 
 
