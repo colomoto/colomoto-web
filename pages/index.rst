@@ -16,7 +16,7 @@ About CoLoMoTo
 
 CoLoMoTo (Consortium for Logical Models and Tools) is a consortium of `research groups <members>`_ interested in logical modelling: modelers, curators and developers of methods and tools.
 The consortium works on the definition of standards for model representation and
-interchange (especially the `SBML qual <formal/sbml-qual.html>`_ format), and on 
+interchange (especially the `SBML qual <formats/sbml-qual.html>`_ format), and on 
 the comparison of methods, models and tools.
 
 

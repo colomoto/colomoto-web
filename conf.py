@@ -107,6 +107,7 @@ NAVIGATION_LINKS = {
         ('/meetings', 'Meetings'),
         ('/members', 'Members'),
 #        ('/formal', 'Formal'),
+        ('/formats', 'Formats'),
         ('/software', 'Software'),
         ('/models', 'Models'),
     ),
