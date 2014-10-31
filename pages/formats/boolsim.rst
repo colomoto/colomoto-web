@@ -5,10 +5,14 @@
 .. description: list of functions used by the boolsim tool
 .. type: text
 
-Example
--------
+This format defines logical functions:
 
-::
+* Syntax: function -> target
+* targets can be associated to multiple functions (combined with a OR)
+* & denotes a AND, ^ denotes a NOT
+
+
+Example::
 
   A & ^C -> A
   A & C -> B
