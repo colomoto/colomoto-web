@@ -6,3 +6,5 @@
 .. type: text
 
 
+See http://doc.ginsim.org/format-truthtable.html
+

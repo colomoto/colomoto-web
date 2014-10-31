@@ -5,4 +5,14 @@
 .. description: list of functions used by the boolsim tool
 .. type: text
 
+Example
+-------
+
+::
+
+  A & ^C -> A
+  A & C -> B
+  B -> B
+  ^A -> C
+
 

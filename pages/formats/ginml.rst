@@ -5,4 +5,5 @@
 .. description: XML format used by GINsim
 .. type: text
 
+See http://doc.ginsim.org/format-ginml.html
 
