@@ -4,6 +4,8 @@
 .. link: 
 .. type: text
 .. related-groups: mpi-magdeburg
+.. formats:
+.. features: multivalued
 
 
 CellNetAnalyzer (CNA) is a package for MATLAB and provides a comprehensive and user-friendly environment

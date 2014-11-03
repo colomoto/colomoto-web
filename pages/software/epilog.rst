@@ -4,6 +4,8 @@
 .. link: http://ginsim.org/epilog
 .. type: text
 .. related-groups: igc inesc
+.. formats: sbml-qual
+.. features: multivalued
 
 
 EpiLog is a Java software for the qualitative simulation of epithelial patterning.

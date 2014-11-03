@@ -4,6 +4,8 @@
 .. link: 
 .. type: text
 .. related-groups: cig igc inesc ibens
+.. formats: ginml, sbml-qual
+.. features: multivalued
 
 GINsim is a Java application for the construction and analysis of multi-valued logical models.
 

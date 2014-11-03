@@ -4,6 +4,8 @@
 .. link: 
 .. type: text
 .. related-groups: ulm
+.. formats: sbml-qual
+.. features: 
 
 
 BoolNet is an `R package <http://cran.r-project.org/web/packages/BoolNet>`_ for the construction

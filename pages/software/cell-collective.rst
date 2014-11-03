@@ -4,6 +4,8 @@
 .. link: 
 .. type: text
 .. related-groups: nebraska
+.. formats: sbml-qual
+.. features: 
 
 
 The Cell Collective (see `www.thecellcollective.org <http://www.thecellcollective.org>`_) is a web-based platform for the construction,

@@ -4,6 +4,8 @@
 .. link: 
 .. type: text
 .. related-groups: ebi
+.. formats: sbml-qual
+.. features: multivalued
 
 Website: http://sbml.org/Software/JSBML
 

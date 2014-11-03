@@ -4,6 +4,8 @@
 .. link: 
 .. type: text
 .. related-groups: cig
+.. formats: boolsim
+.. features: 
 
 TODO: link on enfin.org?
 
