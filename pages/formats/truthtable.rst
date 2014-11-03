@@ -12,15 +12,15 @@ This file can be incomplete i.e., can lack information regarding some of the sou
 See http://doc.ginsim.org/format-truthtable.html
 
 Example::
-GeneA GeneB GeneC
-000 100
-001 010
-# This is a comment
-010 110
-011 110
-100 100
-# Yet another unnecessary comment
-101 000
-110 110
-111 110
+  GeneA GeneB GeneC
+  000 100
+  001 010
+  # This is a comment
+  010 110
+  011 110
+  100 100
+  # Yet another unnecessary comment
+  101 000
+  110 110
+  111 110
 
