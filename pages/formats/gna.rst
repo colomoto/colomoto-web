@@ -3,7 +3,8 @@
 .. tags: formats
 .. link: 
 .. description: Model representation in GNA (non-xml) format
-.. type: text (PLDEs).
+.. type: text
+.. features: multivalued
 
 This format defines the representation of a model through the use of piecewise-linear differential equations (PLDEs).
 For each variable, the domain partitions must be defined by the *threshold-parameters*, as well as the synthesis and degradation parameters (*synthesis-parameters* and *degradation-parameters*).

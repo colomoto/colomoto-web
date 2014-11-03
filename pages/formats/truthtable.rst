@@ -4,6 +4,7 @@
 .. link: 
 .. description: Represents the synchronouns dynamics formated as a two-column text file.
 .. type: text
+.. features: multivalued
 
 This format is represented as a two-column file where each line contains a source state followed by its corresponding target state, in the synchronouns dynamics.
 The first line of the table can have a non-mandatory list of node identifiers to be used.

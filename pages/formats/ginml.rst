@@ -3,6 +3,7 @@
 .. tags: formats
 .. link: 
 .. description: XML format used by GINsim
+.. features: multivalued, documentation, layout
 .. type: text
 
 The GINML format is an extension of the GXL (Graph eXchange Language) format.

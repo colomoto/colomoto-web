@@ -4,6 +4,7 @@
 .. link: 
 .. description: list of functions used by the boolsim tool
 .. type: text
+.. features: 
 
 This format defines logical functions:
 
