@@ -66,10 +66,13 @@ Task Forces
 
 In order to best achieve the goals mentioned above, task forces were voluntarily created as follows:
 
-Pillar 1 (Methods & tools): Aurélien Naldi, Gautier Stoll and Pedro Monteiro
-Pillar 2 (Models) Tomas Helikar, Aurélien Naldi, Ioannis Xenarios, also to be contacted BioModels team (Henning Hermjakob)
-Pillar 3 (Standards) : Hannes Klarner, Denis Thieffry and Claudine Chaouiya
-Pillar 4 (Benchmarking): Hannes Klarner, Pedro Varela, Christoph Müssel, Isaac Crespo
+**First Pillar (Methods & tools)**: Aurélien Naldi, Gautier Stoll and Pedro Monteiro
+
+**Second Pillar (Models)** Tomas Helikar, Aurélien Naldi, Ioannis Xenarios, also to be contacted BioModels team (Henning Hermjakob)
+
+**Third Pillar (Standards)** : Hannes Klarner, Denis Thieffry and Claudine Chaouiya
+
+**Fourth Pillar (Benchmarking)**: Hannes Klarner, Pedro Varela, Christoph Müssel, Isaac Crespo
 
 
 Site
