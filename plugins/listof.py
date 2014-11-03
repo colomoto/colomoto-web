@@ -297,7 +297,7 @@ class Info(Directive):
     
     def run(self):
         """ Required by the Directive interface. Create docutils nodes """
-        page = ListOf.site.get_pages_for_source(self.state.document.settings._source)
+        page = ListOf.site.get_pages_for_source(self.state.document.settings._nikola_source_path)
         if page:
             return self.get_info(page)
         
