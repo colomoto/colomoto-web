@@ -55,3 +55,9 @@ Example::
     </gxl>
 
 
+Supported by
+------------
+
+.. usedby:: tools formats
+
+

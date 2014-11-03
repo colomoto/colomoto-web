@@ -21,3 +21,9 @@ Example::
   ^A -> C
 
 
+Supported by
+------------
+
+.. usedby:: tools formats
+
+

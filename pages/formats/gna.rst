@@ -37,3 +37,10 @@ Example::
     parameter-inequalities:
       zero_geneA < k_geneA / g_geneA < t1_geneA < k1_geneA / g_geneA < max_geneA
 
+
+Supported by
+------------
+
+.. usedby:: tools formats
+
+

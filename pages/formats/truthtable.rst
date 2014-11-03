@@ -26,3 +26,10 @@ Example::
   110 110
   111 110
 
+
+Supported by
+------------
+
+.. usedby:: tools formats
+
+

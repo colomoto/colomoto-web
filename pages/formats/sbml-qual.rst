@@ -38,7 +38,11 @@ These SBML files can be imported using the Cytoscape plugin CytoCopter (http://w
 using CellNOpt, train this scaffold network on data to get logical functions (http://www.cellnopt.org/).
 
 
-Example::
+
+Example
+-------
+
+::
 
     <?xml version='1.0' encoding='UTF-8' standalone='no'?>
     <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" layout:required="false" level="3" qual:required="true" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" version="1" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
@@ -135,4 +139,11 @@ Example::
       
       </model>
     </sbml>
+
+
+Supported by
+------------
+
+.. usedby:: tools formats
+
 
