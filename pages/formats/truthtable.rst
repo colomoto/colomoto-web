@@ -12,6 +12,7 @@ This file can be incomplete i.e., can lack information regarding some of the sou
 See http://doc.ginsim.org/format-truthtable.html
 
 Example::
+
   GeneA GeneB GeneC
   000 100
   001 010

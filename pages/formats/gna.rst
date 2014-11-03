@@ -12,6 +12,7 @@ The rules afecting the system are then given by a set of inequality constraints 
 See http://ibis.inrialpes.fr/people/dejong/GNA/user/ch02.html 
 
 Example::
+
   state-variable: geneB
     zero-parameter: zero_geneB
     box-parameter: max_geneB
@@ -34,3 +35,4 @@ Example::
           - g_geneA * geneA
     parameter-inequalities:
       zero_geneA < k_geneA / g_geneA < t1_geneA < k1_geneA / g_geneA < max_geneA
+
