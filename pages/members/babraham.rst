@@ -10,7 +10,8 @@ Our group tries to understand how cellular and molecular systems interpret signa
 
 The group also participates to the development of community services that facilitate research in computational systems biology. This includes efforts towards encoding, annotating and sharing mathematical models in molecular and cellular biology, such as creation of standard representations (SBML,SED-ML, SBGN), controlled vocabularies (SBO, KiSAO, TEDDY, MAMO, Identifiers.org) production of databases (BioModels Database, MIRIAM Registry) and development of software to support the use of standards.
 
- website: http://lenoverelab.org
+
+Website: http://lenoverelab.org
 
 
 .. info::
