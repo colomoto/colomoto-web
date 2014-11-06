@@ -3,7 +3,7 @@
 .. tags: groups
 .. geolocation: 48.844363, 2.344264
 .. description: Apply Systems Biology approaches to biological networks involved in cancer
-.. members: Emmanuel Barillot, Andrei Zynoviev, Laurence Calzone
+.. members: Emmanuel Barillot, Andrei Zinovyev, Laurence Calzone
 .. website: http://sysbio.curie.fr/
 
 The objective of our group is, using a Systems Biology approach,
