@@ -1,10 +1,11 @@
-.. title: Systems Biology Research Group (La Jolla, USA)
+.. title: Systems Biology Research Group
+.. subtitle: UCSD (La Jolla, USA)
 .. tags: groups
 .. geolocation: 32.8821725,-117.2352218
 .. description: 
 .. members: Andreas Dräger
+.. website: http://systemsbiology.ucsd.edu/researchers/draeger
 
-Website: http://systemsbiology.ucsd.edu/researchers/draeger
 
 The main research activities of Andreas Dräger are focused on the (semi-)automatic
 development of large-scale metabolic and regulatory networks.
@@ -13,5 +14,5 @@ fundamental physical and biochemical properties, such as thermodynamics and reac
 Another important aspect of this endeavor is the development specialized software tools for
 efficient creation, simulation, and evaluation of biological systems models.
 
-.. info::
+.. group_info::
 

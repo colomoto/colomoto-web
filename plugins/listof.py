@@ -74,7 +74,7 @@ class CommandMakeLists(Command):
         directives.register_directive('listof', ListOf)
         directives.register_directive('usedby', UsedBy)
         directives.register_directive('members', Members)
-        directives.register_directive('info', Info)
+        directives.register_directive('group_info', GroupInfo)
         
         return super(Command, self).set_site(site)
     
@@ -173,10 +173,11 @@ class ListOf(Directive):
             link = page.permalink()
             title = page.title()
             description = page.description()
-            if description:
-                description = "<br>"+description
             meta = page.meta[page.default_lang]
-            text += "<a class='tile' href='"+link+"'><span class='title'>"+title+"</span>"+description+"</a>"
+            subtitle = ""
+            if "subtitle" in meta:
+                subtitle = "<br><span class='subtitle'>"+meta["subtitle"]+"</span>"
+            text += "<a class='tile' href='"+link+"'><div class='header'><span class='title'>"+title+"</span>"+subtitle+"</div>"+description+"</a>"
             depends.add(page.source_path)
         
         return [nodes.raw('', text, format='html')]
@@ -351,13 +352,13 @@ class Members(Directive):
 
 
 
-class Info(Directive):
-    """ Restructured text extension for inserting page info
+class GroupInfo(Directive):
+    """ Restructured text extension for inserting information about a group page
     
     It will search for a matching page and retrieve info from the metadata.
     
     Usage:
-        .. info::
+        .. group_info::
     """
     
     def run(self):
@@ -370,7 +371,10 @@ class Info(Directive):
 
 
     def get_info(self, page):
-        text = "Members involved in CoLoMoTo activities:"
+        text = "<hr>"
+        web = page.meta[page.default_lang]["website"]
+        text += "<p>Website: <a href='"+web+"'>"+web+"</a></p>"
+        text += "Members involved in CoLoMoTo activities:"
         text += "<ul>"
         for member in page.meta[page.default_lang]["members"].split(","):
             text += "<li>"+member.strip()+"</li>"

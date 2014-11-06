@@ -119,9 +119,14 @@ article header {
     background: #dddddf;
 }
 
-.tile .title {
-    font-size: 150%;
+.tile .header {
+    font-size: 120%;
     color: #228;
+    margin-bottom: .5em;
+}
+
+.tile .title {
+    font-size: 120%;
 }
 
 /* Leaflet styles */

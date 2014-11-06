@@ -1,10 +1,11 @@
-.. title: Vital-IT (Lausanne, CH)
+.. title: Vital-IT
+.. subtitle: SIB - UNIL (Lausanne, CH)
 .. tags: groups
-.. description: Vital-IT provides computer infrastructure and wide expertise in bioinformatics for life sciences
+.. description: Computer infrastructure and bioinformatics expertise for life sciences
 .. geolocation: 46.519565, 6.573977
 .. institute: SIB, University of Lausanne
 .. members: Ioannis Xenarios, Aurélien Naldi, Julien Dorier, Anastasia Chasapi, Isaac Crespo, Anne Niknejad 
-
+.. website: http://www.vital-it.ch
 
 The `Center for Integrative Genomics (CIG) <http://www.unil.ch/cig>`_ is a department of the Faculty of Biology and Medicine of the University of Lausanne (UNIL).
 
@@ -15,5 +16,6 @@ where interactions among groups are numerous both in formal and informal setting
 The `Vital-IT <http://www.vital-it.ch/>`_ group is a bioinformatics competence center associated to the `Swiss Institute of Bioinformatics <http://www.isb-sib.ch/>`_.
 This group provides both computing infrastructure (high-performance computing and storage) and wide expertise in bioinformatics for life-science and medical research.
 
-.. info::
+
+.. group_info::
 

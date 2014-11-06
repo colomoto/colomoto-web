@@ -1,8 +1,10 @@
-.. title: INSERM umrs1138, Kroemer lab (Paris, FR)
+.. title: Kroemer lab
+.. subtitle: INSERM UMRS1138 (Paris, FR)
 .. tags: groups
 .. geolocation: 48.850864, 2.340887
 .. description: Apoptosis, Cancer, Immunity
 .. members: Gautier Stoll
+.. website: http://www.kroemerlab.com/
 
 
 Our team is best known for the discovery that, in programmed cell death (apoptosis),
@@ -25,7 +27,6 @@ allowing us to define the molecular properties of immunogenic cell death.
 Our current research projects are designed to discover the pathophysiological implications
 of cell death, mostly in the context of cancer and immunosurveillance.
 
-Website: http://www.kroemerlab.com/
 
-.. info::
+.. group_info::
 

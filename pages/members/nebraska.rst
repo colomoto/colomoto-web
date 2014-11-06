@@ -1,8 +1,11 @@
-.. title: Helikar Lab (Lincoln, USA)
+.. title: Helikar Lab
+.. subtitle: University of Nebraska at Lincoln (USA)
 .. tags: groups
 .. geolocation: 40.819792, -96.693473
 .. description: Dynamics of biological networks under diseases conditions; development of crowd-sourcing modeling approaches; computational modeling as a method to teach about biological systems.
 .. members: Tomas Helikar, Akram Mohammed
+.. website: http://helikarlab.org
+
 
 Our research focus is three-fold:
 
@@ -12,7 +15,6 @@ Our research focus is three-fold:
 
 3) Implementation of interactive technologies and computational modeling as a means to improve life sciences education.
 
-Lab website: http://helikarlab.org
 
-.. info::
+.. group_info::
 

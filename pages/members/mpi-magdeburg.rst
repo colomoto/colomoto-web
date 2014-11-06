@@ -1,9 +1,10 @@
-.. title: Analysis and Redesign of Biological Networks (Magdeburg, DE)
+.. title: Analysis and Redesign of Biological Networks
+.. subtitle: MPI (Magdeburg, DE)
 .. tags: groups
 .. geolocation: 52.1386771, 11.584116 
-.. description: The group develops and employs theoretical methods for the analysis, inference, and targeted modification of bio-molecular networks
+.. description: Theoretical methods for the analysis, inference, and targeted modification of bio-molecular networks
 .. members: Steffen Klamt
-
+.. website: http://www.mpi-magdeburg.mpg.de/arb
 
 Research of the group lies in the field of Systems Biology, at the intersection of biology, mathematics and engineering sciences.
 We develop theoretical methods for the analysis, inference, and targeted modification of bio-molecular networks and employ
@@ -11,8 +12,6 @@ these methods in collaboration with biological partners, for example, to identif
 or to rationally (re)design the metabolism of bacteria for the production of certain chemicals.
 A long-term goal is the routine use of mathematical modeling in biology, biotechnology, and biomedicine.
 
-Website: http://www.mpi-magdeburg.mpg.de/arb
 
-
-.. info::
+.. group_info::
 

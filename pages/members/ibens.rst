@@ -1,9 +1,10 @@
-.. title: Computational Systems Biology group (Paris, FR)
-.. institute: IBENS - UMR ENS - CNRS 8197 - INSERM 1024
+.. title: Computational Systems Biology group
+.. subtitle: IBENS - UMR ENS - CNRS 8197 - INSERM 1024 (Paris, FR)
 .. tags: groups
 .. geolocation: 48.842177, 2.343683
 .. description: Functional genomic data analysis and logical modelling of cellular signaling/regulatory networks involved in cell fate decisions
 .. members: Denis Thieffry, Wassim Abou-Jaoudé, Céline Hernandez
+.. website: http://www.ibens.ens.fr/spip.php?article26
 
 
 Our team develop efficient tools to process functional genomic data and build computational models
@@ -24,7 +25,6 @@ In parallel, we are modelling the network controlling the specification of blood
 For both studies, we particularly focus on the articulation of three regulatory layers that are usually modelled separately: signalling pathways, transcriptional regulatory networks, and epigenetic remodelling mechanisms. We systematically exploit high-throughput data (from our partners or public repositories) to decipher the regulatory mechanisms (transcription factor binding at promoters and enhancers, epigenetic status) underlying functional effects (gene expression). We will progressively consider other functional data, starting with the roles of non coding RNAs known to affect blood cell fate.
 Systematic confrontation of computational predictions against experimental data will foster model refinements until satisfactory recapitulation of cell responses to external signals and genetic perturbations. This then set the ground for predictive simulations of cell behaviour in novel situations, including responses to known drugs, with a emphasis on the delineation of efficient combinations of interventions, based on the prediction of synergistic effects of known drugs.
 
-Website: http://www.ibens.ens.fr/spip.php?article26
 
-.. info::
+.. group_info::
 

@@ -1,10 +1,11 @@
-.. title: CompBioLab (Mexico city, MX)
+.. title: CompBioLab
+.. subtitle: UNAM (Mexico city, MX)
 .. tags: groups
 .. geolocation: 19.322750, -99.186636
 .. description: 
 .. members: Luis Mendoza
+.. website: http://compbiolab.biomedicas.unam.mx
 
-Website: http://compbiolab.biomedicas.unam.mx
 
-.. info::
+.. group_info::
 

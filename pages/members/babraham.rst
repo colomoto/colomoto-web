@@ -1,8 +1,10 @@
-.. title: Le Novère laboratory (Cambridge, UK)
+.. title: Le Novère laboratory
+.. subtitle: The Babraham Institute (Cambridge, UK)
 .. tags: groups
 .. geolocation: 52.133384, 0.203302
 .. description:  Quantitative computational models and simulations to study cellular and molecular systems, in particular adaptation to environmental signals
 .. members:  Nicolas Le Novère, Nicolas Rodriguez
+.. website: http://lenoverelab.org
 
 The availability of large amounts of quantitative data, coupled to the rise of computational biology methods, now makes possible the study of biological processes at a system level.
 
@@ -11,8 +13,5 @@ Our group tries to understand how cellular and molecular systems interpret signa
 The group also participates to the development of community services that facilitate research in computational systems biology. This includes efforts towards encoding, annotating and sharing mathematical models in molecular and cellular biology, such as creation of standard representations (SBML,SED-ML, SBGN), controlled vocabularies (SBO, KiSAO, TEDDY, MAMO, Identifiers.org) production of databases (BioModels Database, MIRIAM Registry) and development of software to support the use of standards.
 
 
-Website: http://lenoverelab.org
-
-
-.. info::
+.. group_info::
 
