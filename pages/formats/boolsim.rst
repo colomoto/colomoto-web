@@ -6,17 +6,18 @@
 .. type: text
 .. features: 
 
-This format defines logical functions:
+This format defines a model as a list of activating and inhibiting conditions of its components.
 
-* Syntax: function -> target
-* targets can be associated to multiple functions (combined with a OR)
-* & denotes a AND, ^ denotes a NOT
+* The conditions use the & operator for AND, and ^ for NOT
+* Activations are defined as: condition -> target
+* Inhibitions are defined as: condition -| target
+* The complete function will be: (activation1 OR activation2) & !(inhibition1 OR inhibition2)
 
 
 Example::
 
-  A & ^C -> A
-  A & C -> B
+  A&^C -> A
+  A&C -| B
   B -> B
   ^A -> C
 
