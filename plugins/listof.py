@@ -75,6 +75,7 @@ class CommandMakeLists(Command):
         directives.register_directive('usedby', UsedBy)
         directives.register_directive('members', Members)
         directives.register_directive('group_info', GroupInfo)
+        directives.register_directive('method_info', MethodInfo)
         
         return super(Command, self).set_site(site)
     
@@ -156,7 +157,7 @@ class ListOf(Directive):
     
     def run(self):
         """ Required by the Directive interface. Create docutils nodes """
-        self.check_content()
+        check_content(self)
         
         mark = self.arguments[0]
         options = self.arguments[1:]
@@ -182,13 +183,6 @@ class ListOf(Directive):
         
         return [nodes.raw('', text, format='html')]
 
-    def check_content(self):
-        """ Emit a deprecation warning if there is content """
-        if self.content:
-            raise self.warning("This directive does not accept content. The "
-                               "'key=value' format for options is deprecated, "
-                               "use ':key: value' instead")
-
 
 class UsedBy(Directive):
     """ Restructured text extension for inserting a list of pages refering to the current one
@@ -203,55 +197,57 @@ class UsedBy(Directive):
     
     def run(self):
         """ Required by the Directive interface. Create docutils nodes """
-        self.check_content()
+        check_content(self)
         
         page = current_page(self)
-        if not page:
-            return [nodes.raw('', '', format='html')]
         
-        slug = page.meta[page.default_lang]["slug"]
         mark = self.arguments[0]
         usedin = self.arguments[1]
-        
         options = self.arguments[1:]
-        pages = get_page_list(mark, options)
-        
-        if not pages:
-            return [nodes.raw('', '', format='html')]
-
-#        return [nodes.raw('', 'TODO: pages using "'+slug+'" as '+usedin, format='html')]
-        
-        # TODO: find a way to handle dependencies properly (mark the index as dirty in some situations)
         depends = self.state.document.settings.record_dependencies
         
-        text = ""
-        for page in pages:
-            meta = page.meta[page.default_lang]
-            if usedin not in meta:
-                # the target page has no matching metadata
-                continue
-            used = [u.strip() for u in meta[usedin].split(",") ]
-            if slug not in used:
-                # the target page does not use the current page
-                continue
-            
-            link = page.permalink()
-            title = page.title()
-            description = page.description()
-            if description:
-                description = "<br>"+description
-            meta = page.meta[page.default_lang]
-            text += "<a class='tile' href='"+link+"'><span class='title'>"+title+"</span>"+description+"</a>"
-            depends.add(page.source_path)
-        
+        text = used_by(page, mark, usedin, options, depends)
         return [nodes.raw('', text, format='html')]
 
-    def check_content(self):
-        """ Emit a deprecation warning if there is content """
-        if self.content:
-            raise self.warning("This directive does not accept content. The "
-                               "'key=value' format for options is deprecated, "
-                               "use ':key: value' instead")
+
+
+def used_by(page, mark, usedin, options, depends):
+    """Shared method to show backlinks in various info blocks"""
+    
+    if not page:
+        return [nodes.raw('', '', format='html')]
+
+    slug = page.meta[page.default_lang]["slug"]
+    pages = get_page_list(mark, options)
+    
+    if not pages:
+        return [nodes.raw('', '', format='html')]
+
+#        return [nodes.raw('', 'TODO: pages using "'+slug+'" as '+usedin, format='html')]
+    
+    # TODO: find a way to handle dependencies properly (mark the index as dirty in some situations)
+    
+    text = ""
+    for page in pages:
+        meta = page.meta[page.default_lang]
+        if usedin not in meta:
+            # the target page has no matching metadata
+            continue
+        used = [u.strip() for u in meta[usedin].split(",") ]
+        if slug not in used:
+            # the target page does not use the current page
+            continue
+        
+        link = page.permalink()
+        title = page.title()
+        description = page.description()
+        if description:
+            description = "<br>"+description
+        meta = page.meta[page.default_lang]
+        text += "<a class='tile' href='"+link+"'><span class='title'>"+title+"</span>"+description+"</a>"
+        depends.add(page.source_path)
+    
+    return text
 
 
 
@@ -267,7 +263,7 @@ class MapOf(Directive):
 
     def run(self):
         """ Required by the Directive interface. Create docutils nodes """
-        self.check_content()
+        check_content(self)
         
         mark = self.arguments[0]
         options = self.arguments[1:]
@@ -295,13 +291,6 @@ class MapOf(Directive):
         
         return [nodes.raw('', text, format='html')]
 
-    def check_content(self):
-        """ Emit a deprecation warning if there is content """
-        if self.content:
-            raise self.warning("This directive does not accept content. The "
-                               "'key=value' format for options is deprecated, "
-                               "use ':key: value' instead")
-
 
 class Members(Directive):
     """ Restructured text extension for inserting all members
@@ -314,7 +303,7 @@ class Members(Directive):
     
     def run(self):
         """ Required by the Directive interface. Create docutils nodes """
-        self.check_content()
+        check_content(self)
         
         mark = self.arguments[0]
         pages = get_page_list(mark)
@@ -342,14 +331,6 @@ class Members(Directive):
         text += "</ul>"
         
         return [nodes.raw('', text, format='html')]
-
-    def check_content(self):
-        """ Emit a deprecation warning if there is content """
-        if self.content:
-            raise self.warning("This directive does not accept content. The "
-                               "'key=value' format for options is deprecated, "
-                               "use ':key: value' instead")
-
 
 
 class GroupInfo(Directive):
@@ -385,6 +366,39 @@ class GroupInfo(Directive):
         
         return [nodes.raw('', text, format='html')]
 
+
+
+class MethodInfo(Directive):
+    """ Restructured text extension for inserting information about a method page
+    
+    It will search for a matching page and retrieve info from the metadata.
+    
+    Usage:
+        .. method_info::
+    """
+    
+    def run(self):
+        """ Required by the Directive interface. Create docutils nodes """
+        page = current_page(self)
+        if page:
+            return self.get_info(page)
+        
+        return [nodes.raw('', '%s' % dir(self.state.document.settings), format='html')]
+
+
+    def get_info(self, page):
+        
+        depends = self.state.document.settings.record_dependencies
+        
+        text = "<hr>"
+        
+        rel_tools = used_by(page, "tools", "methods", (), depends)
+        if rel_tools:
+            text += "<h3>Availability</h3>\n"+rel_tools
+        
+        return [nodes.raw('', text, format='html')]
+
+
 MAP_TILES= """L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
@@ -405,3 +419,13 @@ def show_map(coords):
 
 def current_page(doc):
     return ListOf.site.get_pages_for_source(doc.state.document.settings._nikola_source_path)
+
+
+def check_content(self):
+    """ Emit a deprecation warning if there is content """
+    if self.content:
+        raise self.warning("This directive does not accept content. The "
+                           "'key=value' format for options is deprecated, "
+                           "use ':key: value' instead")
+
+
