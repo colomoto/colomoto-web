@@ -119,14 +119,22 @@ article header {
     background: #dddddf;
 }
 
-.tile .header {
+.tile .header, .group .header {
     font-size: 120%;
     color: #228;
     margin-bottom: .5em;
 }
 
-.tile .title {
+.tile .title, .group .title {
     font-size: 120%;
+}
+
+.group {
+    border: solid 2px;
+}
+
+.group .content {
+    margin: 1em;
 }
 
 /* Leaflet styles */
