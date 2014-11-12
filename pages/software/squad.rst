@@ -1,4 +1,4 @@
-.. title: SQUAD
+.. title: SQUAD & boolsim
 .. description: Standardized continous simulation of logical models
 .. tags: tools, related-groups
 .. link: 
