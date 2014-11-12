@@ -5,7 +5,7 @@
 .. description: 
 .. type: text
 
-TODO: add definition of logical models, a list of related methods and glossary
+[UNDER CONSTRUCTION] Overview of methods available to study logical models.
 
 
 .. listof:: methods

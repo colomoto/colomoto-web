@@ -171,34 +171,47 @@ class ListOf(Directive):
         
         groups = {}
         for page in pages:
-            grp = None # TODO: detect belonging group
+            grp = None
             for t in page.tags:
                 if t.startswith(":"):
                     grp = t[1:]
                     break
             if grp not in groups:
-                groups[grp] = []
-            groups[grp].append(page)
+                groups[grp] = (None,[])
+            if page.meta[page.default_lang]["slug"] == grp:
+                grp_pages = groups[grp][1]
+                groups[grp] = (page, grp_pages)
+                print "found group entry: ", grp, page 
+            else:
+                groups[grp][1].append(page)
         text = ""
-        for group, group_pages in groups.items():
+        for group in groups:
+            entry_page, group_pages = groups[group]
             if group:
                 text += "<div class='group'>"
-                text += "<div class='header'><span class='title'>"+group+"</span></div>"
+                if entry_page:
+                    text += get_page_tile(entry_page)
+                    depends.add(page.source_path)
+                else:
+                    text += "<div class='header'><span class='title'>"+group+"</span></div>"
                 text += "<div class='content'>"
             for page in group_pages:
-                link = page.permalink()
-                title = page.title()
-                description = page.description()
-                meta = page.meta[page.default_lang]
-                subtitle = ""
-                if "subtitle" in meta:
-                    subtitle = "<br><span class='subtitle'>"+meta["subtitle"]+"</span>"
-                text += "<a class='tile' href='"+link+"'><div class='header'><span class='title'>"+title+"</span>"+subtitle+"</div>"+description+"</a>"
+                text += get_page_tile(page)
                 depends.add(page.source_path)
             if group:
                 text += "</div></div>"
         
         return [nodes.raw('', text, format='html')]
+
+def get_page_tile(page):
+    link = page.permalink()
+    title = page.title()
+    description = page.description()
+    meta = page.meta[page.default_lang]
+    subtitle = ""
+    if "subtitle" in meta:
+        subtitle = "<br><span class='subtitle'>"+meta["subtitle"]+"</span>"
+    return "<a class='tile' href='"+link+"'><div class='header'><span class='title'>"+title+"</span>"+subtitle+"</div>"+description+"</a>"
 
 
 class UsedBy(Directive):

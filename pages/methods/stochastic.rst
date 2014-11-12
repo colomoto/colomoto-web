@@ -1,6 +1,6 @@
 .. title: Stochastic simulations
 .. date: 2014/10/31 09:37:11
-.. tags: methods
+.. tags: methods, :simulation
 .. link: 
 .. description: 
 .. type: text
