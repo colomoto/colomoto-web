@@ -2,7 +2,7 @@
 .. date: 2014/10/31 09:37:11
 .. tags: methods, :updating
 .. link: 
-.. description: 
+.. description: Rules for the selection of the successor state(s)
 .. type: text
 
 

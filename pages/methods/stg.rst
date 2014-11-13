@@ -2,7 +2,7 @@
 .. date: 2014/10/31 09:37:11
 .. tags: methods, :simulation
 .. link: 
-.. description: 
+.. description: Graph representing alternative trajectories
 .. type: text
 
 

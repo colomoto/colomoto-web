@@ -130,12 +130,27 @@ article header {
 }
 
 .group {
-    border: solid 2px;
+    border: solid 5px;
+    border-color: #555;
+    margin: .7em 0em;
 }
 
 .group .content {
     margin: 1em;
 }
+
+.group>.tile {
+    margin: 0em;
+    border: none;
+    background: #555;
+    color: white;
+}
+
+.group>.tile>.header {
+    color: white;
+}
+
+
 
 /* Leaflet styles */
 
