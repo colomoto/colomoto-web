@@ -5,6 +5,7 @@
 .. type: text
 .. related-groups: ulm
 .. formats: sbml-qual
+.. methods: synchronous, asynchronous, stochastic, stg
 .. features: 
 
 

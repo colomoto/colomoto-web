@@ -3,6 +3,7 @@
 .. related-groups: curie
 .. description: Continuous time Boolean modeling
 .. formats:
+.. methods: stochastic
 .. features: 
 
 MaBoSS (Markovian Boolean Stochastic Simulator) is a C++ software for simulating continuous/discrete time Markov processes based on Boolean networks.

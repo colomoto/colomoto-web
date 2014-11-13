@@ -5,6 +5,7 @@
 .. type: text
 .. related-groups: cig
 .. formats: boolsim
+.. methods: synchronous, continuous, trace
 .. features: 
 
 BoolSim implements an efficient algorithm, based on binary decision diagrams, to identify all attractors

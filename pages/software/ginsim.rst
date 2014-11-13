@@ -5,7 +5,7 @@
 .. type: text
 .. related-groups: cig igc inesc ibens
 .. formats: ginml, sbml-qual
-.. methods: synchronous, asynchronous, priorities, stablestates
+.. methods: synchronous, asynchronous, priorities, stablestates, stg
 .. features: multivalued
 
 GINsim is a Java application for the construction and analysis of multi-valued logical models.

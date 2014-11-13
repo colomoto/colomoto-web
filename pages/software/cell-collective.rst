@@ -5,6 +5,7 @@
 .. type: text
 .. related-groups: nebraska
 .. formats: sbml-qual
+.. methods: synchronous, trace
 .. features: 
 
 
