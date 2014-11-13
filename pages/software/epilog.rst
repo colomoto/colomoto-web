@@ -3,10 +3,13 @@
 .. tags: tools, related-groups
 .. link: http://ginsim.org/epilog
 .. type: text
+.. website: http://ginsim.org/epilog
 .. related-groups: igc inesc
 .. formats: sbml-qual
 .. features: multivalued
 
+
+.. tool_header::
 
 EpiLog is a Java software for the qualitative simulation of epithelial patterning.
 
@@ -17,5 +20,7 @@ definition of perturbations, and visualization of the simulation. The latter is 
 
 It relies on the `LogicalModel <https://github.com/colomoto/logicalmodel>`_ library to import multi-valued logical models from SBML qual and compute the successor states.
 
-It is freely available at http://ginsim.org/epilog
+
+
+.. tool_info::
 

@@ -3,13 +3,15 @@
 .. description: R package for the simulation, reconstruction and analysis of various types of Boolean networks
 .. link: 
 .. type: text
+.. website: http://cran.r-project.org/web/packages/BoolNet
 .. related-groups: ulm
 .. formats: sbml-qual
 .. methods: synchronous, asynchronous, stochastic, stg
 .. features: 
 
+.. tool_header::
 
-BoolNet is an `R package <http://cran.r-project.org/web/packages/BoolNet>`_ for the construction
+BoolNet is an R package for the construction
 and analysis of synchronous, asynchronous, probabilistic and temporal Boolean networks.
 It supports the simulation of such models, including the calculation and visualization of
 state transition graphs, basins of attractions and attractors.
@@ -18,4 +20,7 @@ The package also provides methods for the robustness assessment of models and th
 to randomly generated models.
 
 .. ref:: Mussel2010
+
+
+.. tool_info::
 

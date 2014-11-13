@@ -3,10 +3,13 @@
 .. description: A MATLAB package with graphical user interface for structural and functional analysis of cellular networks
 .. link: 
 .. type: text
+.. website: http://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html
 .. related-groups: mpi-magdeburg
 .. formats:
 .. features: multivalued
 
+
+.. tool_header::
 
 CellNetAnalyzer (CNA) is a package for MATLAB and provides a comprehensive and user-friendly environment
 for structural and functional analysis of biochemical networks.
@@ -21,4 +24,7 @@ biotechnology, metabolic engineering, pharmacology, microbiology, chemical engin
 Website: http://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html
 
 .. ref:: Klamt2007
+
+
+.. tool_info::
 

@@ -3,11 +3,13 @@
 .. description: Java API library for parsing and writing SBML files and for in-memory manipulation of SBML data structures
 .. link: 
 .. type: text
+.. website: http://sbml.org/Software/JSBML
 .. related-groups: ebi
 .. formats: sbml-qual
 .. features: multivalued
 
-Website: http://sbml.org/Software/JSBML
+
+.. tool_header::
 
 JSBML is a comprehensive implementation of datastructures and parsers
 for the SBML standard in Java ™. JSBMLhas been designed as an
@@ -27,4 +29,7 @@ internal data representation of end-user software.
 
 
 .. ref:: Drager2011
+
+
+.. tool_info::
 

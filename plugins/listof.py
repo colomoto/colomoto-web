@@ -76,6 +76,8 @@ class CommandMakeLists(Command):
         directives.register_directive('members', Members)
         directives.register_directive('group_info', GroupInfo)
         directives.register_directive('method_info', MethodInfo)
+        directives.register_directive('tool_header', ToolHeader)
+        directives.register_directive('tool_info', ToolInfo)
         
         return super(Command, self).set_site(site)
     
@@ -161,47 +163,55 @@ class ListOf(Directive):
         
         mark = self.arguments[0]
         options = self.arguments[1:]
-        pages = get_page_list(mark, options)
-        
-        if not pages:
-            return [nodes.raw('', '', format='html')]
-        
-        # TODO: find a way to handle dependencies properly (mark the index as dirty in some situations)
         depends = self.state.document.settings.record_dependencies
-        
-        groups = {}
-        for page in pages:
-            grp = None
-            for t in page.tags:
-                if t.startswith(":"):
-                    grp = t[1:]
-                    break
-            if grp not in groups:
-                groups[grp] = (None,[])
-            if page.meta[page.default_lang]["slug"] == grp:
-                grp_pages = groups[grp][1]
-                groups[grp] = (page, grp_pages)
-                print "found group entry: ", grp, page 
-            else:
-                groups[grp][1].append(page)
-        text = ""
-        for group in groups:
-            entry_page, group_pages = groups[group]
-            if group:
-                text += "<div class='group'>"
-                if entry_page:
-                    text += get_page_tile(entry_page)
-                    depends.add(page.source_path)
-                else:
-                    text += "<div class='header'><span class='title'>"+group+"</span></div>"
-                text += "<div class='content'>"
-            for page in group_pages:
-                text += get_page_tile(page)
-                depends.add(page.source_path)
-            if group:
-                text += "</div></div>"
+        text = get_page_listing(mark, options, depends)
         
         return [nodes.raw('', text, format='html')]
+
+def get_page_listing(mark, options, depends, selected=None):
+    pages = get_page_list(mark, options)
+    
+    if not pages:
+        return ''
+    
+    groups = {}
+    for page in pages:
+        meta = page.meta[page.default_lang]
+        slug = meta["slug"]
+        if selected and slug not in selected:
+            continue
+        grp = None
+        for t in page.tags:
+            if t.startswith(":"):
+                grp = t[1:]
+                break
+        if grp not in groups:
+            groups[grp] = (None,[])
+        if slug == grp:
+            grp_pages = groups[grp][1]
+            groups[grp] = (page, grp_pages)
+            print "found group entry: ", grp, page 
+        else:
+            groups[grp][1].append(page)
+    text = ""
+    for group in groups:
+        entry_page, group_pages = groups[group]
+        if group:
+            text += "<div class='group'>"
+            if entry_page:
+                text += get_page_tile(entry_page)
+                depends.add(page.source_path)
+            else:
+                text += "<div class='header'><span class='title'>"+group+"</span></div>"
+            text += "<div class='content'>"
+        for page in group_pages:
+            text += get_page_tile(page)
+            depends.add(page.source_path)
+        if group:
+            text += "</div></div>"
+    
+    return text
+
 
 def get_page_tile(page):
     link = page.permalink()
@@ -334,99 +344,157 @@ class Members(Directive):
     def run(self):
         """ Required by the Directive interface. Create docutils nodes """
         check_content(self)
-        
-        mark = self.arguments[0]
-        pages = get_page_list(mark)
-        
-        if not pages:
-            return [nodes.raw('', '', format='html')]
-        
-        # TODO: find a way to handle dependencies properly (mark the index as dirty in some situations)
         depends = self.state.document.settings.record_dependencies
-        
-        members = []
-        for page in pages:
-            link = page.permalink()
-            title = page.title()
-            parent = "<a href='"+link+"'>"+title+"</a>"
-            pagemembers = [ (m.strip(), parent) for m in page.meta[page.default_lang]["members"].split(",") ]
-            members += pagemembers
-        
-        members.sort( key=lambda m:m[0])
-        
-        text = ""
-        text += "<ul>"
-        for member,parent in members:
-            text += "<li>"+member+" ("+parent+")</li>"
-        text += "</ul>"
+        mark = self.arguments[0]
+        text = get_members(mark, depends)
         
         return [nodes.raw('', text, format='html')]
 
 
 class GroupInfo(Directive):
     """ Restructured text extension for inserting information about a group page
-    
-    It will search for a matching page and retrieve info from the metadata.
-    
     Usage:
         .. group_info::
     """
     
     def run(self):
-        """ Required by the Directive interface. Create docutils nodes """
         page = current_page(self)
-        if page:
-            return self.get_info(page)
-        
-        return [nodes.raw('', '%s' % dir(self.state.document.settings), format='html')]
-
-
-    def get_info(self, page):
-        text = "<hr>"
-        web = page.meta[page.default_lang]["website"]
-        text += "<p>Website: <a href='"+web+"'>"+web+"</a></p>"
-        text += "Members involved in CoLoMoTo activities:"
-        text += "<ul>"
-        for member in page.meta[page.default_lang]["members"].split(","):
-            text += "<li>"+member.strip()+"</li>"
-        text += "</ul>"
-        
-        coords = page.meta["en"]["geolocation"]
-        if coords: text += show_map(coords)
-        
+        depends = self.state.document.settings.record_dependencies
+        text = get_group_info(page, depends)
         return [nodes.raw('', text, format='html')]
 
 
 
 class MethodInfo(Directive):
     """ Restructured text extension for inserting information about a method page
-    
-    It will search for a matching page and retrieve info from the metadata.
-    
     Usage:
         .. method_info::
     """
     
     def run(self):
-        """ Required by the Directive interface. Create docutils nodes """
         page = current_page(self)
-        if page:
-            return self.get_info(page)
-        
-        return [nodes.raw('', '%s' % dir(self.state.document.settings), format='html')]
-
-
-    def get_info(self, page):
-        
         depends = self.state.document.settings.record_dependencies
-        
-        text = "<hr>"
-        
-        rel_tools = used_by(page, "tools", "methods", (), depends)
-        if rel_tools:
-            text += "<h3>Availability</h3>\n"+rel_tools
-        
+        text = get_method_info(page, depends)
         return [nodes.raw('', text, format='html')]
+
+
+class ToolInfo(Directive):
+    """ Restructured text extension for inserting information about a software tool page
+    Usage:
+        .. tool_info::
+    """
+    
+    def run(self):
+        page = current_page(self)
+        depends = self.state.document.settings.record_dependencies
+        text = get_tool_info(page, depends)
+        return [nodes.raw('', text, format='html')]
+
+class ToolHeader(Directive):
+    """ Restructured text extension for inserting information about a software tool page
+    Usage:
+        .. tool_header::
+    """
+    
+    def run(self):
+        page = current_page(self)
+        depends = self.state.document.settings.record_dependencies
+        text = get_tool_header(page, depends)
+        return [nodes.raw('', text, format='html')]
+
+def get_members(mark, depends):
+    pages = get_page_list(mark)
+    
+    if not pages:
+        return ''
+    
+    members = []
+    for page in pages:
+        link = page.permalink()
+        title = page.title()
+        parent = "<a href='"+link+"'>"+title+"</a>"
+        pagemembers = [ (m.strip(), parent) for m in page.meta[page.default_lang]["members"].split(",") ]
+        members += pagemembers
+    
+    members.sort( key=lambda m:m[0])
+    
+    text = ""
+    text += "<ul>"
+    for member,parent in members:
+        text += "<li>"+member+" ("+parent+")</li>"
+    text += "</ul>"
+    
+    return text
+
+
+def get_group_info(page, depends):
+    if not page:
+        return 'Group Info: Error finding the current page'
+    
+    text = "<hr>"
+    web = page.meta[page.default_lang]["website"]
+    text += "<p>Website: <a href='"+web+"'>"+web+"</a></p>"
+    text += "Members involved in CoLoMoTo activities:"
+    text += "<ul>"
+    for member in page.meta[page.default_lang]["members"].split(","):
+        text += "<li>"+member.strip()+"</li>"
+    text += "</ul>"
+    
+    coords = page.meta["en"]["geolocation"]
+    if coords: text += show_map(coords)
+    
+    return text
+
+
+def get_method_info(page, depends):
+    if not page:
+        return 'Method Info: Error finding the current page'
+    
+    text = "<hr>"
+    
+    rel_tools = used_by(page, "tools", "methods", (), depends)
+    if rel_tools:
+        text += "<h3>Availability</h3>\n"+rel_tools
+    
+    return text
+
+
+def get_tool_info(page, depends):
+    """Get the bottom information block for a tool"""
+    if not page:
+        return 'Tool Info: Error finding the current page'
+    
+    meta = page.meta[page.default_lang]
+    text = "<hr>"
+    
+    # add implemented methods and supported formats
+    if "methods" in meta:
+        sel_methods = [ m.strip() for m in meta["methods"].split(",") ]
+        if sel_methods:
+            text += "<h2>Implemented methods</h2>"
+            text += get_page_listing("methods", [], depends, sel_methods)
+    
+    if "formats" in meta:
+        sel_formats = [ m.strip() for m in meta["formats"].split(",") ]
+        if sel_formats:
+            text += "<h2>Supported formats</h2>"
+            text += get_page_listing("formats", [], depends, sel_formats)
+    
+    return text
+
+def get_tool_header(page, depends):
+    """Get the top information block for a tool"""
+    if not page:
+        return 'Tool Info: Error finding the current page'
+    
+    meta = page.meta[page.default_lang]
+    text = ""
+    if "website" in meta:
+        web = meta["website"]
+        text += "<p>Website: <a href='"+web+"'>"+web+"</a></p>"
+    text += "<hr>"
+    
+    return text
 
 
 MAP_TILES= """L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {

@@ -3,13 +3,16 @@
 .. description: Web-based plateform for the construction and simulation of Boolean models
 .. link: 
 .. type: text
+.. website: http://www.thecellcollective.org
 .. related-groups: nebraska
 .. formats: sbml-qual
 .. methods: synchronous, trace
 .. features: 
 
+.. tool_header::
 
-The Cell Collective (see `www.thecellcollective.org <http://www.thecellcollective.org>`_) is a web-based platform for the construction,
+
+The Cell Collective is a web-based platform for the construction,
 simulation, and analysis of Boolean-based models.
 
 The platform includes a Knowledge Base facilitating the collaborative annotation of the models by tracking the evidence associated with each interaction.
@@ -20,4 +23,7 @@ in contrast to classical Boolean simulations where they are fixed to 0 or 1. The
 over a configurable number of time steps in multiple synchronous simulations.
 
 .. ref:: Helikar2012
+
+
+.. tool_info::
 
