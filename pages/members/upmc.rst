@@ -1,5 +1,5 @@
 .. title: Kroemer lab
-.. subtitle: INSERM UMRS1138 (Paris, FR)
+.. subtitle: CRC - INSERM UMRS1138 - UPMC - APHP HeGP - Gustave Roussy - U. Paris Descartes U. Paris Sud (Paris, FR)
 .. tags: groups
 .. geolocation: 48.850864, 2.340887
 .. description: Apoptosis, Cancer, Immunity
