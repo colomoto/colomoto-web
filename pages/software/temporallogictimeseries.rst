@@ -19,7 +19,6 @@ and CTL specifications for NuSMV model checking. The script allows
 assumptions regarding the monotony, stability and robustness of
 trajectories that represent time series data.
 
-.. ref:: 
 
 
 .. tool_info::

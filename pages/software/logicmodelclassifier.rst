@@ -20,7 +20,6 @@ scripts for the creation of a model pool (CSP enumeration, sampling and
 perturbations), model annotation (NuSMV model checking) and analysis
 (basic "logical data analysis") exist.
 
-.. ref:: 
 
 
 .. tool_info::

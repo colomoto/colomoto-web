@@ -4,7 +4,7 @@
 .. description: Computes all minimal and maximal symbolic steady states of a given Boolean network
 .. link: 
 .. type: text
-.. website: http://sourceforge.net/projects/boolnetfixpoints-reference
+.. website: http://sourceforge.net/projects/boolnetfixpoints
 .. related-groups: fu-berlin
 .. formats: 
 .. features:
