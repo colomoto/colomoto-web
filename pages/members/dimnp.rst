@@ -1,5 +1,5 @@
-.. title: Biological Physics and Systems Biology (DIMNP, UMR 5235)
-.. subtitle: University of Montpellier (FR)
+.. title: Biological Physics and Systems Biology 
+.. subtitle: DIMNP - UMR 5235, University of Montpellier (FR)
 .. tags: groups
 .. description: Mathematical, physical, and computational approaches to study biological systems
 .. geolocation: 43.631456, 3.867527

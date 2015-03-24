@@ -1,9 +1,9 @@
-.. title: Synthetic Systems Biology group (Amsterdam, NL)
-.. subtitle: 
+.. title: Synthetic Systems Biology group
+.. subtitle: Swammerdam Institute for Life Sciences, University of Amsterdam (NL)
 .. tags: groups
 .. description: Systems biology and multi-scale modeling of eukaryotic cell cycle regulation
 .. geolocation: 52.354411, 4.952302
-.. institute: Swammerdam Institute for Life Sciences, University of Amsterdam
+.. institute: 
 .. members: Matteo Barberis, Thierry Mondeel
 .. website: http://sils.uva.nl/research/research-programmes/content/synthetic-systems-biology/staff/staff-synthetic-systems-biology.html
 
