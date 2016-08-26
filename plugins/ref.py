@@ -8,6 +8,13 @@ from docutils.parsers.rst import Directive, directives, roles
 
 from nikola.plugin_categories import RestExtension
 
+# hack to get string type testing work with both python 2.7 and 3
+try:
+    basestring
+except NameError:
+    basestring = str
+
+
 class Plugin(RestExtension):
 
     name = "rest_bib"

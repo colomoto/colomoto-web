@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+# compatibility with python 2.7 and 3
+from __future__ import print_function
+
+
 import os
 import json
 from docutils import nodes
@@ -10,7 +14,6 @@ from nikola import Nikola
 from nikola.plugin_categories import RestExtension
 from nikola.plugin_categories import Task
 from nikola.plugin_categories import Command
-
 
 def get_pages_per_tags(self):
     """Add a list of tagged pages to the main site object."""
@@ -69,25 +72,13 @@ class CommandMakeLists(Command):
 
     cmd_options = ()
 
-    def set_site(self, site):
-        ListOf.site = site
-        directives.register_directive('listof', ListOf)
-        directives.register_directive('usedby', UsedBy)
-        directives.register_directive('members', Members)
-        directives.register_directive('group_info', GroupInfo)
-        directives.register_directive('method_info', MethodInfo)
-        directives.register_directive('tool_header', ToolHeader)
-        directives.register_directive('tool_info', ToolInfo)
-        
-        return super(Command, self).set_site(site)
-    
     def _execute(self, options, args):
         self.site.scan_posts()
         tagged = self.site.get_pages_per_tags()
         base_map_dir = "output/map"
         
         # Update depends
-        print"TODO: record depends"
+        print( "TODO: record depends" )
         for tag in tagged:
             geogroups = []
             pages = tagged[tag]
@@ -111,11 +102,28 @@ class CommandMakeLists(Command):
                 out.write(";\n")
                 out.close()
         
-        print depends
+        print( depends )
         
         
         # trigger a rebuild
         #self.site.doit.run( ["build"] )
+
+class ListofExtensions(RestExtension):
+    """Load RST extensions"""
+
+    name = "listof_extensions"
+
+    def set_site(self, site):
+        ListOf.site = site
+        directives.register_directive('listof', ListOf)
+        directives.register_directive('usedby', UsedBy)
+        directives.register_directive('members', Members)
+        directives.register_directive('group_info', GroupInfo)
+        directives.register_directive('method_info', MethodInfo)
+        directives.register_directive('tool_header', ToolHeader)
+        directives.register_directive('tool_info', ToolInfo)
+        
+        return super(RestExtension, self).set_site(site)
 
 
 def get_geo_info(page):
@@ -190,7 +198,7 @@ def get_page_listing(mark, options, depends, selected=None):
         if slug == grp:
             grp_pages = groups[grp][1]
             groups[grp] = (page, grp_pages)
-            print "found group entry: ", grp, page 
+            print( "found group entry: ", grp, page )
         else:
             groups[grp][1].append(page)
     text = ""
