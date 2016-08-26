@@ -15,5 +15,6 @@ Logical models can be found on various repositories:
 * The `GINsim's model repository <http://ginsim.org/models_repository>`_
   provide models in the GINML format, which can be converted to SBML qual
   (and other formats) using GINsim.
-
+* The PyBoolNet repository of Boolean networks at
+  https://github.com/hklarner/PyBoolNet/tree/master/Repository
 
