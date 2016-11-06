@@ -109,6 +109,7 @@ NAVIGATION_LINKS = {
         ('/methods', 'Methods'),
         ('/formats', 'Formats'),
         ('/software', 'Software'),
+        ('/benchmarks', 'Benchmarks'),
         ('/models', 'Models'),
     ),
 }
