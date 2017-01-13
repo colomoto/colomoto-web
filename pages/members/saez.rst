@@ -1,10 +1,9 @@
 .. title: Systems Biomedicine (Saez-Rodriguez lab)
-.. subtitle: RWTH-Aachen (Aachen, DE)
+.. subtitle: RWTH-Aachen (Aachen, DE) and EMBL-EBI (Hinxton, UK)
 .. tags: groups
 .. geolocation: 50.778195, 6.049567
 .. description: We develop methods based on logic modelling to understand the deregulation of signalling networks in disease and to identify novel therapeutics.
 .. members: Julio Saez Rodriguez, Attila Gabor, Federica Eduati, Enio Gjerga, Melanie Rinas
-
 .. website: http://www.saezlab.org
 
 
