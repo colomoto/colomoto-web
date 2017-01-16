@@ -1,9 +1,9 @@
-.. title: Logical Model Library
+.. title: Logical Qualitative Modelling toolkit
 .. tags: tools, related-groups
 .. description: Java library for the manipulation and conversion of logical models
 .. link: 
 .. type: text
-.. website: https://github.com/colomoto/logicalmodel
+.. website: https://github.com/colomoto/bioLQM
 .. related-groups: 
 .. formats: sbml-qual, boolsim, truthtable
 .. features: multivalued
