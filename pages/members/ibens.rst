@@ -3,7 +3,7 @@
 .. tags: groups
 .. geolocation: 48.842177, 2.343683
 .. description: Functional genomic data analysis and logical modelling of cellular signaling/regulatory networks involved in cell fate decisions
-.. members: Denis Thieffry, Wassim Abou-Jaoudé, Céline Hernandez
+.. members: Denis Thieffry, Aurélien Naldi, Céline Hernandez
 .. website: http://www.ibens.ens.fr/spip.php?article26
 
 

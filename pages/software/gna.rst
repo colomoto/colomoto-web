@@ -5,7 +5,7 @@
 .. type: text
 .. website: http://www-helix.inrialpes.fr/gna
 .. related-groups: ibis
-.. formats: gna
+.. formats: gna sbm-qual
 .. features: multivalued
 
 
