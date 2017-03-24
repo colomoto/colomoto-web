@@ -3,8 +3,8 @@
 .. tags: event
 .. description: 
 
-Julien Dorier, Laurence Calzone, and Pedro Monteiro are planning a one-day workshop dedicated to Logical Modelling in the context of the Basel Computational Biology Conference ([BC]2 - https://www.bc2.ch/2017/).
+Julien Dorier, Laurence Calzone, and Pedro Monteiro are planning a one-day workshop dedicated to Logical Modelling in the context of the `Basel Computational Biology Conference <https://www.bc2.ch/2017/>`_.
 This workshop will take place in Basel on September 12, one day before the main [BC]2 conference (September 13-15).
 
-See  `</workshops/2017-bc2/>`_ for more details.
+More details are available on the `workshop page </events/2017-bc2-workshop/>`_.
 
