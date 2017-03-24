@@ -35,6 +35,13 @@ footer a, footer a:visited, footer a:hover {
    color: #005;
 }
 
+nav .tags {
+    text-align: left;
+}
+
+.postpromonav {
+    margin-top: 3em;
+}
 
 /* pin the top navbar? */
 .navbar-fixed-top {

@@ -1,7 +1,7 @@
 .. title: CoLoMoTo letter to the editor published on Bioinformatics
 .. slug: colomoto-published-bioinformatics
 .. date: 2015/05/02 23:22:22
-.. tags: 
+.. tags: publication
 .. description: 
 
 
