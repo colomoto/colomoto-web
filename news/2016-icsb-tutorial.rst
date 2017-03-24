@@ -1,6 +1,6 @@
 .. title: Hands-on tutorial on software tools for logical modeling at ICSB 2016
 .. date: 2016/08/17 08:34:00
-.. tags: 
+.. tags: event
 .. description: 
 
 `ICSB 2016 <www.icsb2016barcelona.org>`_ will have a `tutorial on logical modelling tools

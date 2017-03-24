@@ -1,7 +1,7 @@
 .. title: Logical Modeling Workshop at ECCB 2014
 .. slug: logical-modeling-workshop-eccb-2014
 .. date: 2014/08/06 16:53:22
-.. tags: 
+.. tags: event
 .. description: 
 
 
