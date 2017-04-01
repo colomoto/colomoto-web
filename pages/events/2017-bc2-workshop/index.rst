@@ -6,7 +6,7 @@
 Organizers
 ==========
 
-Laurence Calzone (Institut Curie / U900 INSERM / Mines ParisTech), Pedro T. Monteiro (INESC-ID/IST - Universidade de Lisboa), Julien Dorier (Vital-IT, SIB Swiss Institute of Bioinformatics)
+`Laurence Calzone <https://science.curie.fr/members/laurence-calzone/>` (Institut Curie / U900 INSERM / Mines ParisTech), `Pedro T. Monteiro <http://pedromonteiro.org/>` (INESC-ID/IST - Universidade de Lisboa), `Julien Dorier <https://www.vital-it.ch/about/team>` (Vital-IT, SIB Swiss Institute of Bioinformatics)
 
  
 
@@ -38,3 +38,65 @@ Target audience
 ===============
 
 This workshop should appeal to all students and researchers interested in learning about the recent developments on modelling regulatory networks, ranging from recent biological applications, to the development of methods and tools.
+
+
+
+Program
+=======
+
+Session I - Methodologies and Tools (Part I)
+--------------------------------------------
+
+=============  ===========================================
+Time           Topic
+=============  ===========================================
+09:00 - 10:30  Introductory remarks
+09:05 - 09:50  Keynote speaker 1: Denis Thieffry
+09:50 - 10:20  Talk 1: Loic  Paulevé
+=============  ===========================================
+
+=============  ===========================================
+10:20 - 10:50  Coffee Break
+=============  ===========================================
+
+Session II - Methodologies and Tools (Part II)
+----------------------------------------------
+
+=============  ===========================================
+Time           Topic
+=============  ===========================================
+10:50 - 11:20  Talk 2: Julien Dorier
+11:20 - 11:50  Talk 3: Aurélien Naldi
+11:50 - 12:20  Talk 5: Pedro Monteiro
+12:20 - 12:30  Discussion - concluding remarks
+=============  ===========================================
+
+=============  ===========================================
+12:30 - 13:30  Lunch Break
+=============  ===========================================
+
+Session II - Applications of logical models to diseases (Part I)
+-----------------------------------------------------------------
+
+=============  ===========================================
+Time           Topic
+=============  ===========================================
+13:30 - 14:15  Keynote speaker 2: Ioannis Xenarios
+14:15 - 14:45  Talk 1: Thomas Sauter
+14:45 - 15:05  Talk 2: Attila Gabor
+
+=============  ===========================================
+15:05 - 15:30  Coffee Break
+=============  ===========================================
+
+Session II - Applications of logical models to diseases (Part II)
+-----------------------------------------------------------------
+
+=============  ===========================================
+Time           Topic
+=============  =========================================== 
+15:30 - 16:00  Talk 4: Gautier Stoll
+16:00 - 16:30  Talk 5: Claudine Chaouiya
+16:30 - 17:00  Discussion - concluding remarks
+=============  ==================================================
+
