@@ -6,7 +6,7 @@
 Organizers
 ==========
 
-`Laurence Calzone <https://science.curie.fr/members/laurence-calzone/>` (Institut Curie / U900 INSERM / Mines ParisTech), `Pedro T. Monteiro <http://pedromonteiro.org/>` (INESC-ID/IST - Universidade de Lisboa), `Julien Dorier <https://www.vital-it.ch/about/team>` (Vital-IT, SIB Swiss Institute of Bioinformatics)
+`Laurence Calzone <https://science.curie.fr/members/laurence-calzone/>`_ (Institut Curie / U900 INSERM / Mines ParisTech), `Pedro T. Monteiro <http://pedromonteiro.org/>`_ (INESC-ID/IST - Universidade de Lisboa), `Julien Dorier <https://www.vital-it.ch/about/team>`_ (Vital-IT, SIB Swiss Institute of Bioinformatics)
 
  
 
@@ -84,6 +84,7 @@ Time           Topic
 13:30 - 14:15  Keynote speaker 2: Ioannis Xenarios
 14:15 - 14:45  Talk 1: Thomas Sauter
 14:45 - 15:05  Talk 2: Attila Gabor
+=============  ===========================================
 
 =============  ===========================================
 15:05 - 15:30  Coffee Break
@@ -98,5 +99,5 @@ Time           Topic
 15:30 - 16:00  Talk 4: Gautier Stoll
 16:00 - 16:30  Talk 5: Claudine Chaouiya
 16:30 - 17:00  Discussion - concluding remarks
-=============  ==================================================
+=============  ===========================================
 
