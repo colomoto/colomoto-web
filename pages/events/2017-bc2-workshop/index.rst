@@ -65,7 +65,7 @@ Session II - Methodologies and Tools (Part II)
 =============  ===========================================
 Time           Speaker - Title
 =============  ===========================================
-10:50 - 11:20  Talk 2: Julien Dorier (SBI, Lausanne, CH)
+10:50 - 11:20  Talk 2: Julien Dorier (SIB, Lausanne, CH)
 11:20 - 11:50  Talk 3: Aurélien Naldi (IBENS, Paris, FR)
 11:50 - 12:20  Talk 5: Pedro Monteiro (IST - U. Lisboa, PT)
 12:20 - 12:30  Discussion - concluding remarks
@@ -81,7 +81,7 @@ Session II - Applications of logical models to diseases (Part I)
 =============  ===========================================
 Time           Speaker - Title
 =============  ===========================================
-13:30 - 14:15  Keynote speaker 2: Ioannis Xenarios (SBI, Lausanne, CH)
+13:30 - 14:15  Keynote speaker 2: Ioannis Xenarios (SIB, Lausanne, CH)
 14:15 - 14:45  Talk 1: Thomas Sauter (U. Luxembourg, LU)
 14:45 - 15:05  Talk 2: Attila Gabor (JRC-COMBINE, Aachen, DE)
 =============  ===========================================
