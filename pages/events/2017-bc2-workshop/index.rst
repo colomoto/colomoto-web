@@ -3,6 +3,12 @@
 .. link: 
 .. type: text
 
+The `13th [BC]2 - the Basel Computational Biology Conference <https://www.bc2.ch/2017/>`_ will take place on 12th-15th September 2017 at the Congress Center Basel, Switzerland.
+
+[BC]2 will feature a one-day workshop/tutorial sessions as part of the official `conference program <https://www.bc2.ch/2017/program/>`_.
+
+Website: `WS4: Logical modelling of biological regulatory networks <https://www.bc2.ch/2017/program/workshops/ws4/>`_
+
 Organizers
 ==========
 
