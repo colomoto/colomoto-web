@@ -103,6 +103,7 @@ Session II - Applications of logical models to diseases (Part II)
 Time           Speaker - Title
 =============  =========================================== 
 15:30 - 16:00  Talk 4: Gautier Stoll (Paris Descartes, CPSC, Paris, FR)
+               *Heterogeneous cell population modelling within continuous time Boolean approach*
 16:00 - 16:30  Talk 5: Claudine Chaouiya (IGC, Oeiras, PT)
 16:30 - 17:00  Discussion - concluding remarks
 =============  ===========================================
