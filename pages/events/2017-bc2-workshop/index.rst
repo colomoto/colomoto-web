@@ -87,7 +87,7 @@ Session II - Applications of logical models to diseases (Part I)
 =============  ===========================================
 Time           Speaker - Title
 =============  ===========================================
-13:30 - 14:15  Keynote speaker 2: Ioannis Xenarios (SIB, Lausanne, CH)
+13:30 - 14:15  Keynote speaker 2: Ioannis Xenarios (SIB, Lausanne, CH) - *Systems-level modeling between biocuration, predictions and validations*
 14:15 - 14:45  Talk 1: Thomas Sauter (U. Luxembourg, LU)
 14:45 - 15:05  Talk 2: Attila Gabor (JRC-COMBINE, Aachen, DE)
 =============  ===========================================
