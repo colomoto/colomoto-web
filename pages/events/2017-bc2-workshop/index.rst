@@ -58,7 +58,7 @@ Time           Speaker - Title
 =============  ===========================================
 09:00 - 10:30  Introductory remarks
 09:05 - 09:50  Keynote speaker 1: Denis Thieffry (IBENS, Paris, FR) - *Predictive dynamical modelling of immune cell specification and reprogramming*
-09:50 - 10:20  Talk 1: Loic Paulevé (LRI - CNRS, Paris, FR)
+09:50 - 10:20  Talk 1: Loic Paulevé (LRI - CNRS, Paris, FR) - *Scalable and formal control of traces in qualitative networks with PINT*
 =============  ===========================================
 
 =============  ===========================================
