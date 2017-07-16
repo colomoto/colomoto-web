@@ -9,21 +9,20 @@ The fourth CoLoMoTo meeting is scheduled in Paris, from the 17th to the 19th of 
 For convenience, the meeting is planned right before ISMB/ECCB (July 21 - 25 in Prague).
 As usual, the meeting will cover a wide range of topics related to logical modelling,
 from methodological and software developments to biological applications.
-It will be hosted by IBENS in the center of Paris: 46 rue d’Ulm, 75005 Paris: https://goo.gl/maps/6MSEgxeDd8r.
-
+This meeting will be hosted by IBENS in the center of Paris: 46 rue d’Ulm, 75005 Paris (see https://goo.gl/maps/6MSEgxeDd8r).
 
 This meeting is organized by Aurélien Naldi (IBENS, Paris), Claudine Chaouiya (IGC, Lisbon), Denis Thieffry (IBENS, Paris), Gautier Stoll (INSERM, IGR, U. Paris Descartes), and Laurence Calzone (Curie Institute, Paris).
 
 
-Registration is free but mandatory, see the `registration form <https://docs.google.com/forms/d/e/1FAIpQLSeT4T3JthlrYOOKbAayrJvVAtcAteTXSIroUZVG_uhfk9pGdQ/viewform>`_.
-
-
-Preliminary Schedule
+Schedule
 ====================
 
 
 July 17 - Scientific Presentations
 ----------------------------------
+
+The plenary presentations on the first day will take place in salle Favard (2nd floor of the IBENS building, next to the main entry on rue d'Ulm).
+
 
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
 | Time  |           Speaker - Title                                                                                                             |
@@ -66,6 +65,8 @@ July 17 - Scientific Presentations
 July 18 - Working groups and Presentations
 ------------------------------------------
 
+Working groups will take place on the 5th floor of the IBENS building.
+
 
 +-------+---------------------------------------------------------------------------------------------------+
 | Time  |            Title                                                                                  |
@@ -102,4 +103,41 @@ Time        Title
 11:30    **Discussion**
 12:30    **Wrapping-up**
 =======  ===========================================
+
+
+
+Participants
+============
+
+* Adrien Fauré	    (Yamaguchi University)
+* Andras Hartmann	(University of Luxembourg)
+* Anna Niarakis	    (Université d'Evry Val d'Essonne)
+* Arnau Montagud	(Institut Curie)
+* Aurélien Naldi	(IBENS)
+* Célia Biane	    (UEVE, IBISC Lab)
+* Céline Hernandez	(IBENS)
+* Claudine Chaouiya	(Instituto Gulbenkian de Ciência)
+* Daniela Ferretti	(University of Camerino)
+* Delphine Potier	(CIML)
+* Denis Thieffry    (IBENS)
+* Élisabeth Remy	(CNRS)
+* Enio Gjerga	    (JRC COMBINE, RWTH Aachen University)
+* Gautier Stoll	    (INSERM U1138eq11/Université Paris 5/Gustave Roussy)
+* Geoffray Brelurut	(IBENS)
+* Ghislaine Morvan-Dubois	(CNRS)
+* Hugues Mandon	    (INRIA - LSV - LRI)
+* Laurence Calzone	(Institut Curie)
+* Loïc Paulevé	    (CNRS/LRI)
+* Nathalie Lehmann	(IBENS)
+* Paolo Ballarini	(CentraleSupelec)
+* Pauline Traynard	(Institut Curie)
+* Pedro T. Monteiro	(INESC-ID/IST - Universidade de Lisboa)
+* Ping Zhang	    (University of Kaiserslautern, Institute of Automatic Control)
+* Samuel Collombet 	(IBENS)
+* Samyadeep Basu	(IBENS)
+* Seraya Maouche	(TBi Scientific)
+* Swann Flochlay	(IBENS)
+* Tomas Helikar	    (University of Nebraska)
+* Vidisha Singh	    (Genhotel, University of Evry val d'essonne)
+* Wassim Abou-Jaoude
 
