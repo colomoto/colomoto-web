@@ -110,7 +110,6 @@ Participants
 ============
 
 * Adrien Fauré	    (Yamaguchi University)
-* Andras Hartmann	(University of Luxembourg)
 * Anna Niarakis	    (Université d'Evry Val d'Essonne)
 * Arnau Montagud	(Institut Curie)
 * Aurélien Naldi	(IBENS)
