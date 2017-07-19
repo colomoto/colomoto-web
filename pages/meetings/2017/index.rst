@@ -18,41 +18,22 @@ July 17 - Scientific Presentations
 ----------------------------------
 
 
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| Time  |           Speaker - Title                                                                                                             |
-+=======+=======================================================================================================================================+
-| 13:00 |  **Introductory remarks**                                                                                                             |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 13:20 |  | **Gautier Stoll** (INSERM, IGR, U. Paris Descartes)                                                                                |
-|       |  | `Using MaBoSS for modeling heterogeneous cell behavior <Stoll_maboss.pdf>`_                                                        |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 13:40 |  | **Samuel Collombet** (IBENS, Paris)                                                                                                |
-|       |  | Deciphering the regulatory network of blood cells specification and reprogramming                                                  |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 14:00 |  *Coffee Break*                                                                                                                       |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 14:30 |  | **Loïc Paulevé** (CNRS LRI, Orsay)                                                                                                 |
-|       |  | `Modelling and analysis of transient dynamics of qualitative models <Pauleve_Pint.pdf>`_  (`tutorial <pint-tutorial.pdf>`_)        |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 14:50 | | **Enio Gjerga** (RWTH Aachen)                                                                                                       |
-|       | | Efficient modelling of signalling networks derived from mass spectrometry phosphoproteomic data using Integer Linear Programming    |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 15:10 |  | **Ping Zhang** (University of Kaiserslautern)                                                                                      |
-|       |  | Control and Diagnosis of Boolean Networks                                                                                          |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 15:30 |  *Coffee Break*                                                                                                                       |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 16:00 | | **Anna Niarakis** (Univ. Evry)                                                                                                      |
-|       | | Integrative modelling and analysis of molecular pathways involved in Rheumatoid Arthritis                                           |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 16:20 |  | **Arnau Montagud** (Curie Institute, Paris)                                                                                        |
-|       |  | `Conceptual and computational framework for logical modelling of deregulated biological networks <Montagud_pipeline.pdf>`_         |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 16:40 |  | **Claudine Chaouiya** (IGC Lisbon)                                                                                                 |
-|       |  | `Standards for logical models: current status of SBML qual & SED-ML <Chaouiya_standards.pdf>`_                                     |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 17:00 |  **Discussion - planning workgroups**                                                                                                 |
-+-------+---------------------------------------------------------------------------------------------------------------------------------------+
+=======  ======================  ==============================================================================================================
+  Time    Speaker                  Title                                                                                                        
+=======  ======================  ==============================================================================================================
+13:00                            **Introductory remarks**
+13:20    **Gautier Stoll**       `Using MaBoSS for modeling heterogeneous cell behavior <Stoll_maboss.pdf>`_
+13:40    **Samuel Collombet**    Deciphering the regulatory network of blood cells specification and reprogramming
+14:00                            *Coffee Break*
+14:30    **Loïc Paulevé**        `Modelling and analysis of transient dynamics of qualitative models <Pauleve_Pint.pdf>`_  (`tutorial <pint-tutorial.pdf>`_)
+14:50    **Enio Gjerga**         Efficient modelling of signalling networks derived from mass spectrometry phosphoproteomic data using Integer Linear Programming
+15:10    **Ping Zhang**          Control and Diagnosis of Boolean Networks
+15:30                            *Coffee Break*
+16:00    **Anna Niarakis**       Integrative modelling and analysis of molecular pathways involved in Rheumatoid Arthritis
+16:20    **Arnau Montagud**      `Conceptual and computational framework for logical modelling of deregulated biological networks <Montagud_pipeline.pdf>`_
+16:40    **Claudine Chaouiya**   `Standards for logical models: current status of SBML qual & SED-ML <Chaouiya_standards.pdf>`_
+17:00                            **Discussion - planning workgroups** 
+=======  ======================  ==============================================================================================================
 
 
 
@@ -60,33 +41,23 @@ July 18 - Working groups and Presentations
 ------------------------------------------
 
 
-+-------+---------------------------------------------------------------------------------------------------+
-| Time  |            Title                                                                                  |
-+=======+===================================================================================================+
-| 09:00 | Working group on tooling                                                                          |
-+       +---------------------------------------------------------------------------------------------------+
-|       | | **Aurélien Naldi** (IBENS, Paris)                                                               |
-|       | | `Model conversion, modification, and analysis with bioLQM <Naldi_bioLQM.pdf>`_                  |
-+-------+---------------------------------------------------------------------------------------------------+
-| 12:30 |  *Lunch break*                                                                                    |
-+-------+---------------------------------------------------------------------------------------------------+
-| 13:30 | | Working group on applications                                                                   |
-|       | | **Laurence Calzone** (Curie, Paris)                                                             |
-|       | | **Gautier Stoll** (Curie, Paris)                                                                |
-+-------+---------------------------------------------------------------------------------------------------+
-| 15:30 | Working group on methods                                                                          |
-+       +---------------------------------------------------------------------------------------------------+
-|       | | **Pedro T. Monteiro** (INESC-ID/IST, Lisbon)                                                    |
-|       | | On the structure and robustness of gene regulatory network Boolean functions                    |
-+       +---------------------------------------------------------------------------------------------------+
-|       | | Adrien Fauré (Yamaguchi University)                                                             |
-|       | | **A circuit-preserving mapping from multilevel to Boolean dynamics**                            |
-+       +---------------------------------------------------------------------------------------------------+
-|       | | **Aurélien Naldi** (IBENS, Paris)                                                               |
-|       | | `Trap-spaces and global reachability mapping <Naldi_trapspaces.pdf>`_                           |
-+-------+---------------------------------------------------------------------------------------------------+
-| 17:30 |  **Wrapping-up**                                                                                  |
-+-------+---------------------------------------------------------------------------------------------------+
+=======  ======================  ============================================================================
+  Time    Speaker                  Title                                                                                                        
+=======  ======================  ============================================================================
+09:00                            **Working group on tooling**
+-        **Aurélien Naldi**      `Model conversion, modification, and analysis with bioLQM <Naldi_bioLQM.pdf>`_
+-        **Loïc Paulevé**        Jupyter Notebook
+-        **Claudine Chaouiya**   Future extensions to SBML qual and SED ML
+12:30                            *Lunch break*
+13:30                            **Working group on applications**
+-        **Laurence Calzone** 
+-        **Gautier Stoll**    
+15:30                            **Working group on methods**
+-        **Pedro T. Monteiro**   On the structure and robustness of gene regulatory network Boolean functions
+-        **Adrien Fauré**        A circuit-preserving mapping from multilevel to Boolean dynamics**
+-        **Aurélien Naldi**      `Trap-spaces and global reachability mapping <Naldi_trapspaces.pdf>`_
+17:30                            **Wrapping-up**
+=======  ======================  ============================================================================
 
 
 
