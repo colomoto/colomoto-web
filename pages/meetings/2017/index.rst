@@ -5,23 +5,17 @@
 .. type: text
 
 
-The fourth CoLoMoTo meeting is scheduled in Paris, from the 17th to the 19th of July, 2017.
-For convenience, the meeting is planned right before ISMB/ECCB (July 21 - 25 in Prague).
-As usual, the meeting will cover a wide range of topics related to logical modelling,
+The fourth CoLoMoTo meeting took place in Paris, from the 17th to the 19th of July, 2017.
+As usual, the meeting covered a wide range of topics related to logical modelling,
 from methodological and software developments to biological applications.
-This meeting will be hosted by IBENS in the center of Paris: 46 rue d’Ulm, 75005 Paris (see https://goo.gl/maps/6MSEgxeDd8r).
+It was hosted by IBENS in the center of Paris (46 rue d'Ulm).
 
-This meeting is organized by Aurélien Naldi (IBENS, Paris), Claudine Chaouiya (IGC, Lisbon), Denis Thieffry (IBENS, Paris), Gautier Stoll (INSERM, IGR, U. Paris Descartes), and Laurence Calzone (Curie Institute, Paris).
+This meeting was organized by Aurélien Naldi (IBENS, Paris), Claudine Chaouiya (IGC, Lisbon), Denis Thieffry (IBENS, Paris), Gautier Stoll (INSERM, IGR, U. Paris Descartes), and Laurence Calzone (Curie Institute, Paris).
 
-
-Schedule
-====================
 
 
 July 17 - Scientific Presentations
 ----------------------------------
-
-The plenary presentations on the first day will take place in salle Favard (2nd floor of the IBENS building, next to the main entry on rue d'Ulm).
 
 
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
@@ -29,33 +23,33 @@ The plenary presentations on the first day will take place in salle Favard (2nd 
 +=======+=======================================================================================================================================+
 | 13:00 |  **Introductory remarks**                                                                                                             |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 13:20 |  | Gautier Stoll (INSERM, IGR, U. Paris Descartes)                                                                                    |
-|       |  | **Using MaBoSS for modeling heterogeneous cell behavior**                                                                          |
+| 13:20 |  | **Gautier Stoll** (INSERM, IGR, U. Paris Descartes)                                                                                |
+|       |  | `Using MaBoSS for modeling heterogeneous cell behavior <Stoll_maboss.pdf>`_                                                        |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 13:40 |  | Samuel Collombet (IBENS, Paris)                                                                                                    |
-|       |  | **Deciphering the regulatory network of blood cells specification and reprogramming**                                              |
+| 13:40 |  | **Samuel Collombet** (IBENS, Paris)                                                                                                |
+|       |  | Deciphering the regulatory network of blood cells specification and reprogramming                                                  |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
 | 14:00 |  *Coffee Break*                                                                                                                       |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 14:30 |  | Loïc Paulevé (CNRS LRI, Orsay)                                                                                                     |
-|       |  | **Modelling and analysis of transient dynamics of qualitative models**                                                             |
+| 14:30 |  | **Loïc Paulevé** (CNRS LRI, Orsay)                                                                                                 |
+|       |  | `Modelling and analysis of transient dynamics of qualitative models <Pauleve_Pint.pdf>`_  (`tutorial <pint-tutorial.pdf>`_)        |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 14:50 | | Enio Gjerga (RWTH Aachen)                                                                                                           |
-|       | | **Efficient modelling of signalling networks derived from mass spectrometry phosphoproteomic data using Integer Linear Programming**|
+| 14:50 | | **Enio Gjerga** (RWTH Aachen)                                                                                                       |
+|       | | Efficient modelling of signalling networks derived from mass spectrometry phosphoproteomic data using Integer Linear Programming    |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 15:10 |  | Ping Zhang (University of Kaiserslautern)                                                                                          |
-|       |  | **Control and Diagnosis of Boolean Networks**                                                                                      |
+| 15:10 |  | **Ping Zhang** (University of Kaiserslautern)                                                                                      |
+|       |  | Control and Diagnosis of Boolean Networks                                                                                          |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
 | 15:30 |  *Coffee Break*                                                                                                                       |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 16:00 | | Anna Niarakis (Univ. Evry)                                                                                                          |
-|       | | **Integrative modelling and analysis of molecular pathways involved in Rheumatoid Arthritis**                                       |
+| 16:00 | | **Anna Niarakis** (Univ. Evry)                                                                                                      |
+|       | | Integrative modelling and analysis of molecular pathways involved in Rheumatoid Arthritis                                           |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 16:20 |  | Arnau Montagud (Curie Institute, Paris)                                                                                            |
-|       |  | **Conceptual and computational framework for logical modelling of biological networks deregulated in diseases**                    |
+| 16:20 |  | **Arnau Montagud** (Curie Institute, Paris)                                                                                        |
+|       |  | `Conceptual and computational framework for logical modelling of deregulated biological networks <Montagud_pipeline.pdf>`_         |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
-| 16:40 |  | Claudine Chaouiya (IGC Lisbon)                                                                                                     |
-|       |  | **Standards for logical models: current status of SBML qual & SED-ML**                                                             |
+| 16:40 |  | **Claudine Chaouiya** (IGC Lisbon)                                                                                                 |
+|       |  | `Standards for logical models: current status of SBML qual & SED-ML <Chaouiya_standards.pdf>`_                                     |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
 | 17:00 |  **Discussion - planning workgroups**                                                                                                 |
 +-------+---------------------------------------------------------------------------------------------------------------------------------------+
@@ -65,49 +59,54 @@ The plenary presentations on the first day will take place in salle Favard (2nd 
 July 18 - Working groups and Presentations
 ------------------------------------------
 
-Working groups will take place on the 5th floor of the IBENS building.
-
 
 +-------+---------------------------------------------------------------------------------------------------+
 | Time  |            Title                                                                                  |
 +=======+===================================================================================================+
-| 09:00 |  Working groups - associated presentations                                                        |
-+-------+---------------------------------------------------------------------------------------------------+
-| -     | | Adrien Fauré (Yamaguchi University)                                                             |
-|       | | **A circuit-preserving mapping from multilevel to Boolean dynamics**                            |
-+-------+---------------------------------------------------------------------------------------------------+
-| -     | | Pedro T. Monteiro (INESC-ID/IST, Lisbon)                                                        |
-|       | | **On the structure and robustness of gene regulatory network Boolean functions**                |
-+-------+---------------------------------------------------------------------------------------------------+
-| -     | | Aurélien Naldi (IBENS, Paris)                                                                   |
-|       | | **Model conversion, modification, and analysis with bioLQM**                                    |
-+-------+---------------------------------------------------------------------------------------------------+
-| 12:00 |  **Wrapping-up**                                                                                  |
+| 09:00 | Working group on tooling                                                                          |
++       +---------------------------------------------------------------------------------------------------+
+|       | | **Aurélien Naldi** (IBENS, Paris)                                                               |
+|       | | `Model conversion, modification, and analysis with bioLQM <Naldi_bioLQM.pdf>`_                  |
 +-------+---------------------------------------------------------------------------------------------------+
 | 12:30 |  *Lunch break*                                                                                    |
 +-------+---------------------------------------------------------------------------------------------------+
-| 14:00 |  Working groups                                                                                   |
+| 13:30 | | Working group on applications                                                                   |
+|       | | **Laurence Calzone** (Curie, Paris)                                                             |
+|       | | **Gautier Stoll** (Curie, Paris)                                                                |
 +-------+---------------------------------------------------------------------------------------------------+
-| 17:00 |  **Discussion**                                                                                   |
+| 15:30 | Working group on methods                                                                          |
++       +---------------------------------------------------------------------------------------------------+
+|       | | **Pedro T. Monteiro** (INESC-ID/IST, Lisbon)                                                    |
+|       | | On the structure and robustness of gene regulatory network Boolean functions                    |
++       +---------------------------------------------------------------------------------------------------+
+|       | | Adrien Fauré (Yamaguchi University)                                                             |
+|       | | **A circuit-preserving mapping from multilevel to Boolean dynamics**                            |
++       +---------------------------------------------------------------------------------------------------+
+|       | | **Aurélien Naldi** (IBENS, Paris)                                                               |
+|       | | `Trap-spaces and global reachability mapping <Naldi_trapspaces.pdf>`_                           |
++-------+---------------------------------------------------------------------------------------------------+
+| 17:30 |  **Wrapping-up**                                                                                  |
 +-------+---------------------------------------------------------------------------------------------------+
 
 
 
-July 19 - Working groups and Discussion
-----------------------------------------
+July 19 - Wrapping up and hacking
+---------------------------------
 
-=======  ===========================================
-Time        Title
-=======  ===========================================
-09:00    Working groups
-11:30    **Discussion**
-12:30    **Wrapping-up**
-=======  ===========================================
++-------+---------------------------------------------------------------------------------------------------+
+| Time  |            Title                                                                                  |
++=======+===================================================================================================+
+| 10:00 |  MaBoSS Tutorial                                                                                  |
++-------+---------------------------------------------------------------------------------------------------+
+| 10:00 |  Docker session                                                                                   |
++-------+---------------------------------------------------------------------------------------------------+
+| 12:00 |  **Discussion and Wrapping-up**                                                                   |
++-------+---------------------------------------------------------------------------------------------------+
 
 
 
 Participants
-============
+------------
 
 * Adrien Fauré	    (Yamaguchi University)
 * Anna Niarakis	    (Université d'Evry Val d'Essonne)
