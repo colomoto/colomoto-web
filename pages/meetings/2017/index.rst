@@ -29,7 +29,7 @@ July 17 - Scientific Presentations
 14:50    **Enio Gjerga**         Efficient modelling of signalling networks derived from mass spectrometry phosphoproteomic data using Integer Linear Programming
 15:10    **Ping Zhang**          Control and Diagnosis of Boolean Networks
 15:30                            *Coffee Break*
-16:00    **Anna Niarakis**       Integrative modelling and analysis of molecular pathways involved in Rheumatoid Arthritis
+16:00    **Anna Niarakis**       `Integrative modelling and analysis of molecular pathways involved in Rheumatoid Arthritis <Niarakis_RA.pdf>`_
 16:20    **Arnau Montagud**      `Conceptual and computational framework for logical modelling of deregulated biological networks <Montagud_pipeline.pdf>`_
 16:40    **Claudine Chaouiya**   `Standards for logical models: current status of SBML qual & SED-ML <Chaouiya_standards.pdf>`_
 17:00                            **Discussion - planning workgroups** 
@@ -50,11 +50,11 @@ July 18 - Working groups and Presentations
 -        **Claudine Chaouiya**   Future extensions to SBML qual and SED ML
 12:30                            *Lunch break*
 13:30                            **Working group on applications**
--        **Laurence Calzone** 
--        **Gautier Stoll**    
+-        **Laurence Calzone**    Model composition
+-        **Gautier Stoll**       Modelling the immune system
 15:30                            **Working group on methods**
--        **Pedro T. Monteiro**   On the structure and robustness of gene regulatory network Boolean functions
--        **Adrien Fauré**        A circuit-preserving mapping from multilevel to Boolean dynamics**
+-        **Pedro T. Monteiro**   `On the structure and robustness of gene regulatory network Boolean functions <Monteiro_functions.pdf>`_
+-        **Adrien Fauré**        `A circuit-preserving mapping from multilevel to Boolean dynamics <Faure_circuits.pdf>`_
 -        **Aurélien Naldi**      `Trap-spaces and global reachability mapping <Naldi_trapspaces.pdf>`_
 17:30                            **Wrapping-up**
 =======  ======================  ============================================================================
