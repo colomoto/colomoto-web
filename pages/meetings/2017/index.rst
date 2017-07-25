@@ -26,7 +26,7 @@ July 17 - Scientific Presentations
 13:40    **Samuel Collombet**    Deciphering the regulatory network of blood cells specification and reprogramming
 14:00                            *Coffee Break*
 14:30    **Loïc Paulevé**        `Modelling and analysis of transient dynamics of qualitative models <Pauleve_Pint.pdf>`_  (`tutorial <pint-tutorial.pdf>`_)
-14:50    **Enio Gjerga**         Efficient modelling of signalling networks derived from mass spectrometry phosphoproteomic data using Integer Linear Programming
+14:50    **Enio Gjerga**         `Efficient modelling of signalling networks derived from mass spectrometry phosphoproteomic data using Integer Linear Programming <Gjerga_ILP.pdf>`_
 15:10    **Ping Zhang**          Control and Diagnosis of Boolean Networks
 15:30                            *Coffee Break*
 16:00    **Anna Niarakis**       `Integrative modelling and analysis of molecular pathways involved in Rheumatoid Arthritis <Niarakis_RA.pdf>`_
