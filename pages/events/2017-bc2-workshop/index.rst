@@ -74,7 +74,7 @@ Session II - Methodologies and Tools (Part II)
 Time           Speaker - Title
 =============  ===========================================
 10:50 - 11:20  Talk 2: Julien Dorier (SIB, Lausanne, CH)
-11:20 - 11:50  Talk 3: Aurélien Naldi (IBENS, Paris, FR)
+11:20 - 11:50  Talk 3: Aurélien Naldi (IBENS, Paris, FR) - *Efficient identification of qualitative attractors through constraint solving*
 11:50 - 12:20  Talk 5: Pedro Monteiro (IST - U. Lisboa, PT) - *On the number and structure of Boolean functions compatible with a regulatory network topology*
 12:20 - 12:30  Discussion - concluding remarks
 =============  ===========================================
