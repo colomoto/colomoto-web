@@ -58,7 +58,7 @@ Session I - Methodologies and Tools (Part I)
 =============  ===========================================
 Time           Speaker - Title
 =============  ===========================================
-09:00 - 10:30  Introductory remarks
+09:00 - 09:05  Introductory remarks
 09:05 - 09:50  Keynote speaker 1: Denis Thieffry (IBENS, Paris, FR) - *Predictive dynamical modelling of immune cell specification and reprogramming*
 09:50 - 10:20  Talk 1: Loic Paulevé (LRI - CNRS, Paris, FR) - *Scalable and formal control of traces in qualitative networks with PINT*
 =============  ===========================================
@@ -75,7 +75,7 @@ Time           Speaker - Title
 =============  ===========================================
 10:50 - 11:20  Talk 2: Julien Dorier (SIB, Lausanne, CH) - *Boolean regulatory networks reconstruction using literature based knowledge*
 11:20 - 11:50  Talk 3: Aurélien Naldi (IBENS, Paris, FR) - *Efficient identification of qualitative attractors through constraint solving*
-11:50 - 12:20  Talk 5: Pedro Monteiro (IST - U. Lisboa, PT) - *On the number and structure of Boolean functions compatible with a regulatory network topology*
+11:50 - 12:20  Talk 4: Pedro Monteiro (IST - U. Lisboa, PT) - *On the number and structure of Boolean functions compatible with a regulatory network topology*
 12:20 - 12:30  Discussion - concluding remarks
 =============  ===========================================
 
@@ -104,8 +104,8 @@ Session II - Applications of logical models to diseases (Part II)
 =============  ===========================================
 Time           Speaker - Title
 =============  =========================================== 
-15:30 - 16:00  Talk 4: Gautier Stoll (Paris Descartes, CPSC, Paris, FR) - *Heterogeneous cell population modelling within continuous time Boolean approach*
-16:00 - 16:30  Talk 5: Claudine Chaouiya (IGC, Oeiras, PT) - *A logical model of cancer cell adhesion properties in the context of Epithelial to Mesenchymal Transition*
+15:30 - 16:00  Talk 3: Gautier Stoll (Paris Descartes, CPSC, Paris, FR) - *Heterogeneous cell population modelling within continuous time Boolean approach*
+16:00 - 16:30  Talk 4: Claudine Chaouiya (IGC, Oeiras, PT) - *A logical model of cancer cell adhesion properties in the context of Epithelial to Mesenchymal Transition*
 16:30 - 17:00  Discussion - concluding remarks
 =============  ===========================================
 
