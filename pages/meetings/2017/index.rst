@@ -13,6 +13,8 @@ It was hosted by IBENS in the center of Paris (46 rue d'Ulm).
 This meeting was organized by Aurélien Naldi (IBENS, Paris), Claudine Chaouiya (IGC, Lisbon), Denis Thieffry (IBENS, Paris), Gautier Stoll (INSERM, IGR, U. Paris Descartes), and Laurence Calzone (Curie Institute, Paris).
 
 
+Also see the `minutes of the discussions <report.html>`_.
+
 
 July 17 - Scientific Presentations
 ----------------------------------
