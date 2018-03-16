@@ -3,7 +3,7 @@
 .. description: Java library for the manipulation and conversion of logical models
 .. link: 
 .. type: text
-.. website: https://github.com/colomoto/bioLQM
+.. website: http://colomoto.org/biolqm
 .. related-groups: 
 .. formats: sbml-qual, boolsim, truthtable
 .. features: multivalued
