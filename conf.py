@@ -288,7 +288,7 @@ RSS_PATH = INDEX_PATH
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = []
+REDIRECTIONS = [('notebook/index.html','https://colomoto.github.io/colomoto-docker'),]
 
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
