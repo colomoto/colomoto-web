@@ -8,6 +8,6 @@ Anna Niarakis and Denis Thieffry are organizing a one-day workshop dedicated to 
 This workshop will take place in Athens on September 08, before the main ECCB conference (September 09-12).
 More details are available on the `workshop page <http://eccb18.org/workshop-6/>`_.
 
-A one-day hands-on tutorial on Logical Modelling will take place on the following day (September 09), featuring CellNOpt, Cell Collective, GINsim, and the CoLoMoTo notebook.
-More details are available on the `tutorial page <http://eccb18.org/tutorial-8/>`_.
+Tomas Helikar and Juilee Thakar are also organizing a one-day hands-on tutorial on the following day (September 09), featuring CellNOpt, Cell Collective, GINsim, and the CoLoMoTo notebook.
+More details are available on the `tutorial page <../events/2018-eccb/tutorial.html>`_.
 
