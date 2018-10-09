@@ -51,7 +51,7 @@ Schedule and slides
 -------  -----------------------------------------------------------------------------------------------------
 **Session II: Methods and tools.** Chair: I Xenarios (Lausanne)
 --------------------------------------------------------------------------------------------------------------
-11h10    L Sun (Berlin)                         Logical modelling: Inferring structure from dynamics
+11h10    L Sun (Berlin)                         Logical modelling: Inferring structure from dynamics (`slides <ECCB18_W6_Sun.pdf>`__)
 11h30    A Niarakis (Evry)                      Automated pipeline for the inference of Boolean models from molecular interaction maps (`slides <ECCB18_W6_Niarakis.pdf>`__)
 11h50    C Réda & B Wilczynski (Warsow)         Automated Inference of Gene Regulatory Networks Using Explicit Regulatory Modules (`slides <ECCB18_W6_Reda.pdf>`__)
 12h10    Lunch break
