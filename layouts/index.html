@@ -1,0 +1,11 @@
+{{ define "after_main" }}
+<section class="children">
+<div class="content">
+{{ range .Site.Menus.home }}
+  <div class="relative">
+    <a href="{{ .URL }}"><div class="summary">
+    <h1>{{ .Name }}</h1>
+    <div class="text">{{ .Page.Summary  }}</div>
+</div></a>  </div>
+{{ end }}
+{{ end }}

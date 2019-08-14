@@ -1,50 +1,12 @@
-What is this?
-=============
 
 This repository hosts the source files behind the colomoto web pages on http://draft.colomoto.org.
-It uses the nikola static generator: each page is a simple text file using a wiki-like markup.
-
-This document provides some instructions about installing and using nikola,
-and how to edit pages.
+It uses the hugo static generator: each page is a simple text file using a wiki-like markup.
 
 
 Requirements and initial setup
 =============================
 
-
-Virtualenv
-----------
-
-To avoid messing with your system-level python packages, we encourage the use of virtualenv,
-which provides separate collections of python packages and a mechanism to switch from one to the other.
-
-* install virtualenv and virtualenv-wrapper
-* virtualenvwrapper requires to configure your shell:
-  load some helper shortcuts and define the default folder for virtualenv installations
-
-See http://virtualenv.readthedocs.org/en/latest/virtualenv.html for more details.
-
-
-Using virtualenv:
-
-* use the "workon virtenvName" command to enter your virtualenv
-* use the "deactivate" command to get back to your normal environment
-
-
-Nikola
-------
-
-Nikola (http://getnikola.com) is a static site generator: it takes text files in light markup, applies templates and turns them into a set of consistent web pages.
-
-
-Installation (in your virtualenv):  pip install nikola[extras]
-
-As of now, it will install nikola 7.0.1 and dependencies and provide a "nikola" command.
-Usage:
-
-* nikola build: build the site in the output folder
-* nikola serve: launch a minimalist local web server to test it
-* nikola clean: clean the cache (to force a rebuild)
+* install the hugo binary from https://gohugo.io/
 
 
 
@@ -55,17 +17,14 @@ Adding/editing pages
 Folder organisation
 -------------------
 
-* the content of the "files" folder will be copied to the output. images, pdfs,... should go in this folder
-* the main pages are in the "pages" folder: they will be parsed by nikola and turned into HTML before going to the output folder
-* the pages in the "news" folder make up the news section. A RSS feed and archive pages are generated from them.
+* the content of the "static" folder will be copied directly to the output.
+* the main pages are in the "content" folder: they will be parsed by hugo and turned into HTML according to layout templates
 
 
 Markup
 ------
 
-Most pages are defined in files with a "rst" extension.
-These pages use the restructuredtext markup (http://en.wikipedia.org/wiki/ReStructuredText) with some extensions.
-Here are a few instructions for editing, refer to the main RST and nikola documentations for more details.
+Pages are written in markdown with some custom extensions (i.e. hugo's shortcodes)
 
 
 * Titles are underlined.
@@ -75,20 +34,15 @@ Here are a few instructions for editing, refer to the main RST and nikola docume
 * define a list with "*" (unnumbered) or "#" (numbered).
 * To add a simple link, just put a raw URL: http://www.colomoto.org.
 * A more powerful syntax for links is available for relative links and custom text:
-  `your text <http://www.colomoto.org>`_ (look at the source of this file, not the rendered version on github).
-  Note the ending underline and beware the weird quotes!
-
-rst reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+  [your text](http://www.colomoto.org) (look at the source of this file, not the rendered version on github).
 
 
-Custom directives and annotations
----------------------------------
 
-We can define custom markup in the rst files (called directives) using plugins.
+Custom shortcodes
+-----------------
 
-* We curently have a ".. listof:: groups" directive to generate the lists of groups, which will find all pages
-  associated to the desired tag. The same method is used for tools and meetings pages.
-* Each group or tool page must be tagged as such in the metadata (.. tag: groups).
-* group pages should also define two extra metadata: geolocation and members.
-* Another Custom directive handles the formatting of references.
+We can define custom markup in the md files (called shortcodes) using a template language.
+
+* Some groups of pages have custom layout for their metadata
+* References are loaded and rendered based on a JSON representation
 
