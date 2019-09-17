@@ -1,9 +1,8 @@
 ---
-title: "Logical modelling tutorial at ECCB 2018 "
+title: "Tutorial at ECCB 2018 "
 date: 2018/09/09 08:03:46
-summary: Tutorial on sept. 9th, 2018
+summary: Tutorial on sept. 9th, 2018 (Athens, Greece)
 ---
-
 
 Tomas Helikar (University of Nebraska at Lincoln, USA) and Juilee Thakar (University of Rochester, Medical Center, USA)
 organized a one-day tutorial dedicated to Logical Modelling tools in the context of the 

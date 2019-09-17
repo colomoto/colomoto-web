@@ -6,23 +6,18 @@ features:
 ---
 This format defines a model as a list of activating and inhibiting conditions of its components.
 
-* The conditions use the & operator for AND, and ^ for NOT
-* Activations are defined as: condition -> target
-* Inhibitions are defined as: condition -| target
-* The complete function will be: (activation1 OR activation2) & !(inhibition1 OR inhibition2)
+* The conditions use the `&` operator for AND, and `^` for NOT
+* Activations are defined as: `condition -> target`
+* Inhibitions are defined as: `condition -| target`
+* The complete function will be: `(activation1 OR activation2) & !(inhibition1 OR inhibition2)`
 
 
-Example::
+# Sample
 
-  A&^C -> A
-  A&C -| B
-  B -> B
-  ^A -> C
-
-
-Supported by
-------------
-
-.. usedby:: tools formats
-
+```
+A&^C -> A
+A&C -| B
+B -> B
+^A -> C
+```
 

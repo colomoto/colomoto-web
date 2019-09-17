@@ -1,6 +1,6 @@
 ---
 title: "First CoLoMoTo meeting (Lisbon, 2010)"
-date: 2014/04/19 21:37:11
+date: 2010/11/20 21:37:11
 summary: "Kick-off meeting at the Instituto Gulbenkian de Ciência"
 ---
 

@@ -4,3 +4,5 @@
 cache/**
 output/**
 .doit.db
+
+resources/_gen/**

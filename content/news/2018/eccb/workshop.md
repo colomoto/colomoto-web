@@ -1,6 +1,7 @@
 ---
-title: "Logical modelling tutorial at ECCB 2018 "
+title: "Workshop at ECCB 2018 "
 date: 2018/09/25 08:03:46
+summary: One-day workshop on sept 08 (Athens, Greece)
 ---
 
 Anna Niarakis and Denis Thieffry organized a one-day workshop dedicated to Logical Modelling in the context of the

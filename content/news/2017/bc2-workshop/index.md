@@ -1,5 +1,5 @@
 ---
-title: "[BC]2 2017 workshop"
+title: "Workshop at [BC]2 2017"
 date: 2017/03/24 08:03:46
 summary: Workshop on logical modelling of biological regulatory networks. Basel, Sept. 12th, 2017.
 ---
