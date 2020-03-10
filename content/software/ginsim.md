@@ -2,10 +2,21 @@
 title: "GINsim"
 summary: Java software for the construction and analysis of multivalued models
 website: http://www.ginsim.org
-related-groups: cig igc inesc ibens
-formats: ginml, sbml-qual
-methods: synchronous, asynchronous, priorities, stablestates, stg
-features: multivalued
+members:
+- igc
+- inesc
+- ibens
+formats: 
+- ginml
+- sbml-qual
+methods:
+- synchronous
+- asynchronous
+- priority
+- stablestates
+- stg
+features: 
+- multivalued
 ---
 
 GINsim is a Java application for the construction and analysis of multi-valued logical models.

@@ -2,10 +2,15 @@
 title: "BoolNet"
 summary: R package for the simulation, reconstruction and analysis of various types of Boolean networks
 website: http://cran.r-project.org/web/packages/BoolNet
-related-groups: ulm
-formats: sbml-qual
-methods: synchronous, asynchronous, stochastic, stg
-features: 
+members: ulm
+formats: 
+- boolnet
+- sbml-qual
+methods:
+- asynchronous
+- synchronous
+- stochastic
+- stg
 ---
 
 BoolNet is an R package for the construction

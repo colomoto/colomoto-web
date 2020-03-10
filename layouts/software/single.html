@@ -1,0 +1,14 @@
+{{ define "after_main" }}
+
+
+{{ .Scratch.Set "_rel_key_" "methods" }}
+{{ .Scratch.Set "_rel_type_" "methods" }}
+{{ partial "subrel.html" . }}
+
+{{ .Scratch.Set "_rel_key_" "formats" }}
+{{ .Scratch.Set "_rel_type_" "formats" }}
+{{ partial "subrel.html" . }}
+
+
+{{ end }}
+

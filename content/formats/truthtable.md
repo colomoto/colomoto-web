@@ -3,6 +3,7 @@ title: "TruthTable"
 date: 2014/10/31 09:37:11
 summary: Represents the synchronouns dynamics formated as a two-column text file.
 features: multivalued
+formats: truthtable
 ---
 
 This format is represented as a two-column file where each line contains a source state followed by its corresponding target state, in the synchronouns dynamics.

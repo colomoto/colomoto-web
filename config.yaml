@@ -1,0 +1,20 @@
+baseURL: http://colomoto.naldi.info
+languageCode: en-us
+title: CoLoMoTo
+theme: ../../lacademic
+summaryLength: 35
+
+enableEmoji: true
+
+params:
+        logo: colomoto_banner_white.svg
+
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: false
+  indices:
+  - name: methods
+    weight: 100
+  - name: formats
+    weight: 100

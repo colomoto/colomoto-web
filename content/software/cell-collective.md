@@ -4,8 +4,9 @@ summary: Web-based plateform for the construction and simulation of Boolean mode
 website: http://www.thecellcollective.org
 related-groups: nebraska
 formats: sbml-qual
-methods: synchronous, trace
-features: 
+methods: 
+- synchronous
+- trace
 ---
 
 

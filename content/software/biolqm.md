@@ -1,10 +1,15 @@
 ---
-title: "Logical Qualitative Modelling toolkit"
+title: "bioLQM: Logical Qualitative Modelling toolkit"
 summary: Java library for the manipulation and conversion of logical models
 website: http://colomoto.org/biolqm
-related-groups: 
-formats: sbml-qual, boolsim, truthtable
-features: multivalued
+members: 
+- ibens
+formats: 
+- sbml-qual
+- boolsim
+- truthtable
+methods:
+- multivalued
 ---
 
 This library provides a datastructure for the representation of logical models, and a collection of

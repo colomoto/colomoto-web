@@ -3,6 +3,7 @@
 
 cache/**
 output/**
+public/**
 .doit.db
 
 resources/_gen/**

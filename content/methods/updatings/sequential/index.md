@@ -2,6 +2,7 @@
 title: "Sequential"
 date: 2014/10/31 09:37:11
 summary: Sequential updating policy
+methods: sequential
 ---
 
 The sequential updating policy can be seen as a special case of asynchronous updating.

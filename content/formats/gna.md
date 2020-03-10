@@ -3,6 +3,7 @@ title: "GNA format"
 date: 2014/10/31 09:37:11
 summary: Model representation in GNA (non-xml) format
 features: multivalued
+formats: gna
 ---
 
 This format defines the representation of a model through the use of piecewise-linear differential equations (PLDEs).

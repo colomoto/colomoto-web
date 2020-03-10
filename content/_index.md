@@ -6,7 +6,6 @@ menu:
     nav:
         name: "Home"
         weight: 1
-outputs: html json
 extrasections: landing
 ---
 

@@ -2,7 +2,7 @@
 title: "Boolsim"
 date: 2014/10/31 09:37:11
 summary: list of functions used by the boolsim tool
-features: 
+formats: boolsim 
 ---
 This format defines a model as a list of activating and inhibiting conditions of its components.
 

@@ -4,6 +4,7 @@ slug: sbml-qual
 date: 2014/08/06 21:37:11
 summary: Exchange format for logical models based on SBML
 features: multivalued, documentation, layout#extension
+formats: sbml-qual
 ---
 
 [SBML qual](http://sbml.org/Documents/Specifications/SBML_Level_3/Packages/Qualitative_Models_%28qual%29)

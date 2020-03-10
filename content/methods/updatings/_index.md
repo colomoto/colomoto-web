@@ -1,8 +1,8 @@
 ---
-title: "Updating policies"
-slug: policies
-date: 2014/08/04 09:37:11
-summary: 
+title: "Updating methods"
+date: 2014/10/31 09:37:11
+summary: Rules for the selection of the successor state(s)
+methods: asynchronous
 ---
 
 The construction of the State Transition Graph (STG) relies on the logical functions, but also requires an /updating policy/,

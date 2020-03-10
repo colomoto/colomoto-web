@@ -4,7 +4,10 @@ summary: Standardized continous simulation of logical models
 website: http://www.vital-it.ch/software/SQUAD/
 related-groups: cig
 formats: boolsim
-methods: synchronous, continuous, trace
+methods: 
+- synchronous
+- continuous
+- trace
 features: 
 ---
 
