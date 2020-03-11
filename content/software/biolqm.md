@@ -20,7 +20,7 @@ It can be used on the command line for model conversion or stable state identifi
 It can also provide the "boring core" for other tools (such as GINsim and Epilog) which can benefit
 from additional API for the representation of perturbations or simulation engines.
 
-{{<ref Chaouiya2013>}}
+{{<ref Naldi2018c>}}
 
 
 
