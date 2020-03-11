@@ -5,7 +5,6 @@ summary: Synchronous updating policy
 methods: synchronous
 ---
 
-All logical regulatory functions are applied simultaneously to update the corresponding network components.
-This means that there is exactly one possible successor for each node of the STG.
+In this deterministic updating, all components are updated simultaneously.
 
 

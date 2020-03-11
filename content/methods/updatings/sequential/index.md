@@ -5,9 +5,16 @@ summary: Sequential updating policy
 methods: sequential
 ---
 
-The sequential updating policy can be seen as a special case of asynchronous updating.
-Here, an ordering of the nodes is determined, and a sequence of successor states can be constructed by applying the regulatory functions in this order.
-Like in the synchronous case, there is only a single successor state at each step.
-The chosen order of the components can dramatically change the resulting STG.
 
+The sequential updating requires the definition of an ordering of the components.
+This updating is deterministic: each state has a single successor.
+The successor of a state is obtained by updating all components in the defined order,
+such that the update of each component takes into account the changes of the previous ones.
+
+
+As the state is updated between each components, this defines a sequence of intermediate
+successors leading to the final state. A transition from a state to its successor then
+corresponds to a trajectory in the asynchronous updating.
+
+The chosen order of the components can dramatically change the resulting dynamics.
 

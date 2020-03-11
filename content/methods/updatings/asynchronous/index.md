@@ -5,9 +5,8 @@ summary: Asynchronous updating policy
 methods: asynchronous
 ---
 
-Only one node is updated at each time point, i.e. a separate transition is possible for each component.
-Here, many alternative paths in the STG can exist. The asynchronous updating policy, considering many concurrent successor states for the
-exploration of the STG, may become untractable for the analysis of large models, while the synchronous alternative may prove too simplistic.
+Each component can be updated separately, which gives a different successor for each updatable component.
 
-
+This updating is non-deterministic: each state can have several successors
+(at most as many as the number of components).
 
