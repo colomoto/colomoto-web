@@ -32,5 +32,5 @@ Contact information
 We run a `mailing list <http://groups.google.com/group/colomoto-discuss/>`_ for the colomoto community at colomoto-discuss@googlegroups.com.
 You can also contact us on contact@colomoto.org.
 
-There is also a `CoLoMoTo group on LinkedIn <http://www.linkedin.com/groups/CoLoMoTo-4375380>`_.
+There is also a `CoLoMoTo group on LinkedIn <http://www.linkedin.com/groups/4375380>`_.
 
